@@ -1,0 +1,72 @@
+.recruit-box .left {
+  width: 100%;
+  padding: 15px 25px 0 0;
+}
+.recruit-box .right {
+  float: right;
+  width: 25%;
+}
+.brisc-table {
+  width: 98%;
+  text-align: left;
+  font-size: 1.4rem;
+}
+.brisc-table tr {
+  border-bottom: 1px solid #f2f2f2;
+  cursor: default;
+}
+.brisc-table tbody tr:hover {
+  background: #f7f7f7;
+}
+.brisc-table td {
+  width: 25%;
+  padding: 15px 0;
+  padding-left: 10px;
+}
+.brisc-tab {
+  padding: 15px 0 0 20px;
+  font-size: 1.4rem;
+}
+.brisc-tab li {
+  padding: 10px 0;
+}
+.job-box {
+  font-size: 1.4rem;
+}
+.job-box .job-name {
+  margin: 35px 0 10px;
+}
+.job-box p {
+  line-height: 2em;
+}
+.email-to {
+  margin-top: 35px;
+  color: #4672a8;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.recruit-ul {
+  text-align: left;
+  font-size: 1.4rem;
+  margin-top: 25px;
+}
+.recruit-ul li {
+  border-bottom: 1px solid #f2f2f2;
+  cursor: default;
+  padding: 15px 0;
+}
+.recruit-ul li:hover {
+  background: #f7f7f7;
+}
+
+.recruit-ul  .span1 {
+  display: inline-block;
+  width: 29%;
+  text-align: left;
+}
+
+.recruit-ul  .span2 {
+  display: inline-block;
+  width: 19%;
+  text-align: center;
+}

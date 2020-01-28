@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Language" content="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.3">
+  <title>中国科学院生物化学与细胞生物学苏州研究院</title>
+   
+  <!--共用css-->
+  <link rel="icon" href="../assets/images/brics-logo.ico" type="image/x-icon" />
+  <link href="../assets/libs/pagination/pagination.css" rel="stylesheet">
+  <link href="../assets/css/base.css" rel="stylesheet">
+  <link href="../assets/css/commen.css" rel="stylesheet">
+  <!--私有css-->
+  <link href="../assets/css/deteilNav.css" rel="stylesheet">
+  <link href="../assets/css/introduction.css" rel="stylesheet">
+  <link href="../assets/css/academic.css" rel="stylesheet">
+  <link href="../assets/css/notice.css" rel="stylesheet">
+  <link href="../assets/css/deteil.css" rel="stylesheet">
+  <link href="../assets/css/academic.css" rel="stylesheet">
+</head>
+<body>
+<div class="page detail">
+  <!-- nav is begin -->
+  <div class="brisc-section nav">
+    <div class="section-cont clearfix">
+      <a href="index.html" href=""><img class="logo" src="../assets/images/brics-logo.png"></a>
+      <!-- 网站头部 -->
+      <ul class="nav-ul clearfix" id="menu_head"></ul>
+    </div>
+  </div>
+  <!-- main is begin -->
+ <!--   <img class="img-default" src="../../assets/images/kv/kv-xbzx.jpg" alt="pro-pic" id="xbzx_max_img">-->
+  <img class="img-default" src="../assets/images/kv/xbzx38.jpg" alt="pro-pic" id="temp_img">
+  <div class="section-cont detail-main">
+    <div class="title"><a href="index.html">首页</a> <span id="index_title"></span></div>
+    <div class="pro-name" id="index_icon"></div>
+    <div class="toggle-box clearfix" id="togglebox">
+      <ul class="deteil-nav" id="toggleNav">
+      <!--  
+        <li>
+          <a data-id="toggle1" class="active toggle-icon arrow-right" href="javascript:void(0);">资源库介绍</a>
+          <ul class="toggle">
+            <li><a data-id="toggle2" href="javascript:void(0);">子集</a></li>
+          </ul>
+        </li>
+        <li>
+          <a data-id="toggle7"  class="toggle-icon" href="javascript:void(0);">细胞资源</a>
+        </li>
+        <li>
+          <a href="javascript:void(0);"  class="toggle-icon">For-C Project</a>
+        </li>
+        -->
+        
+      </ul>
+      
+       <!-- 模板一  资源库 
+      <div class="toggle-cont" id="data49">
+        <div class="toggle-item"  >
+          <div class="text-box no-index" id="data49Text">
+         
+        </div>
+      </div>
+      <div class="toggle-cont" id="data1">
+        <div class="toggle-item"  >
+          <div class="text-box no-index" id="data1Text">
+    
+        </div>
+      </div>
+      -->
+      <!-- 相关信息 -->
+       <div class="toggle-cont" id="data17">
+      
+        <!-- 模板一  资源库 -->
+        <div class="toggle-item"  id="dataList17">
+    
+        </div>
+      </div>
+      
+      
+      
+      <!-- 模板二（资源库介绍单独样式）细胞库 -->
+      <div class="toggle-cont"   id="data6" style="display: none">
+        <div class="deteil-box">
+          <div class="deteil-item">
+          
+           <!--细胞库  搜索框-->
+            <div class="search-box">
+
+              <div class="search-btns">
+                <a class="search-btn btn-active" onclick="change(1,'6')" id="6tab1">快捷搜索</a>
+                <a class="search-btn" onclick="change(2,'6')" id="6tab2">分类搜索</a>
+              </div>
+
+              <div class="search-content">
+                <!-- 快捷搜索 -->
+                <div class="search-input-div" id="6search-input">
+                    <input class="search-input" id="6kgyxb_all" placeholder="请输入搜索内容"/>
+                    <a href="javascript:void(0)" id="6searchBtn1" onclick="searchContent(1,'KJ','','xbk','6')">
+                    <img src="../assets/images/search-btn.png"/></a>
+                </div>
+
+                <!-- 分类搜索 -->
+                <div class="search-form" id="6search-form" style="display: none;">
+                  <ul>
+                    <li>请选择要搜索的字段后再输入要搜索的内容：</li>
+                    <li id="6search_li1">
+                      <select id="6rsv2">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv3" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="6search_li2">
+                      <select id="6rsv4">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv5" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="6search_li3">
+                      <select id="6rsv6">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv7" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    
+                    <li id="6search_li4" style="display: none;">
+                      <select id="6rsv8">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv9" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="6search_li5" style="display: none;">
+                      <select id="6rsv10">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv11" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="6search_li6" style="display: none;">
+                      <select id="6rsv12">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv13" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="6search_li7" style="display: none;">
+                      <select id="6rsv14">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv15" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="6search_li8" style="display: none;">
+                      <select id="6rsv16">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv17" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="6search_li9" style="display: none;">
+                      <select id="6rsv18">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="6rsv19" style="margin-left: 20px;"/>
+                    </li>
+                   
+                    <li class="fl-center">
+                      <a href="javascript:void(0);" id="6search_all" onclick="search_show(1,'6')" style="padding-top:20px;padding-right:100px;">
+                     <img src="../assets/images/xjt.png"/>                                       
+                                                             更多搜索字段</a>
+                      <button class="search-btn" id="6searchBtn2" onclick="searchContent(1,'FL','','xbk','6')">搜索</button>
+
+                      <button class="clear-btn" onclick="clear_btn()">重新输入</button>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <!--搜索框-->
+            <div class="deteil-title" id="toggle_img_name">细胞库</div>
+            <div class="academic-box academic-box-min user-box clearfix" id="data6Text">
+            
+               <!--  
+              <a class="ad-item" href="" style="height:430px;">
+                <div class="time-box">
+                  <img src="../assets/images/cgzhzz/huping.jpg">
+                </div>
+                <div class="ad-text">
+                  <div class="title2">标题</div>
+                  <p class="">介绍</p>
+                </div>
+                <div class="tips">
+                  <span class="icon icon-more"></span>
+                </div>
+              </a>
+             -->
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      <!-- 模板二（资源库介绍单独样式）质粒库 -->
+      <div class="toggle-cont"   id="data10" style="display: none">
+        <div class="deteil-box">
+          <div class="deteil-item">
+           <!--质粒库  搜索框-->
+            <div class="search-box">
+
+              <div class="search-btns">
+                <a class="search-btn btn-active" onclick="change(1,'10')" id="10tab1">快捷搜索</a>
+                <a class="search-btn" onclick="change(2,'10')" id="10tab2">分类搜索</a>
+              </div>
+
+              <div class="search-content">
+                <!-- 快捷搜索 -->
+                <div class="search-input-div" id="10search-input">
+                    <input class="search-input" id="10kgyxb_all" placeholder="请输入搜索内容"/>
+                    <a href="javascript:void(0)" id="10searchBtn1" onclick="searchContent(1,'KJ','','zlk','10')">
+                    <img src="../assets/images/search-btn.png"/></a>
+                </div>
+
+                <!-- 分类搜索 -->
+                <div class="search-form" id="10search-form" style="display: none;">
+                  <ul>
+                    <li>请选择要搜索的字段后再输入要搜索的内容：</li>
+                    <li id="10search_li1">
+                      <select id="10rsv2">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv3" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="10search_li2">
+                      <select id="10rsv4">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv5" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="10search_li3">
+                      <select id="10rsv6">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv7" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    
+                    <li id="10search_li4" style="display: none;">
+                      <select id="10rsv8">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv9" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="10search_li5" style="display: none;">
+                      <select id="10rsv10">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv11" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="10search_li6" style="display: none;">
+                      <select id="10rsv12">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv13" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="10search_li7" style="display: none;">
+                      <select id="10rsv14">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv15" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="10search_li8" style="display: none;">
+                      <select id="10rsv16">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv17" style="margin-left: 20px;"/>
+                    </li>
+                    
+                    <li id="10search_li9" style="display: none;">
+                      <select id="10rsv18">
+                        <option value="null">--选择要搜索的字段--</option>
+                        <option value="name">名称</option>
+                        <option value="num">编号</option>
+                        <option value="description">描述</option>
+                        <option value="model">类型</option>
+                        <option value="state">说明</option>
+                      </select>
+                      <input type="text" id="10rsv19" style="margin-left: 20px;"/>
+                    </li>
+                   
+                    <li class="fl-center">
+                      <a href="javascript:void(0);" id="10search_all" onclick="search_show(1,'10')" style="padding-top:20px;padding-right:100px;">
+                     <img src="../assets/images/xjt.png"/>                                       
+                                                             更多搜索字段</a>
+                      <button class="search-btn" id="10searchBtn2" onclick="searchContent(1,'FL','','zlk','10')">搜索</button>
+
+                      <button class="clear-btn" onclick="clear_btn()">重新输入</button>
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <!--搜索框-->
+            <div class="deteil-title" id="toggle_img_name">质粒库</div>
+            <div class="academic-box academic-box-min user-box clearfix" id="data10Text">
+            
+               <!--  
+              <a class="ad-item" href="" style="height:430px;">
+                <div class="time-box">
+                  <img src="../assets/images/cgzhzz/huping.jpg">
+                </div>
+                <div class="ad-text">
+                  <div class="title2">标题</div>
+                  <p class="">介绍</p>
+                </div>
+                <div class="tips">
+                  <span class="icon icon-more"></span>
+                </div>
+              </a>
+             -->
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+     
+  
+       <!-- 模板三 -->
+       <!-- CCRB Project-->
+      <div class="toggle-cont" id="data2" style="display: none">
+        <ul class="deteil-nav deteil-nav-cross" id="toggle2Tab" >
+          <!--  
+          <li><a data-id="toggle1" class="active" href="javascript:void(0);">标题一</a></li>
+          <li><a data-id="toggle2" href="javascript:void(0);">标题二</a></li>
+          <li><a data-id="toggle3" href="javascript:void(0);">标题三</a></li>
+          -->
+        </ul>
+        <div class="toggle-cont" id="toggle2list" style="display: block">
+          <div class="toggle-item" id="toggle2Text">
+            <!--  
+            <div class="text-box no-index" >
+              <div class="text-title">细胞资源共享服务</div>
+              <div><b>1.细胞信息查询功能（细胞信息及报价等）</b></div>
+              <div><b>2.细胞产品订购流程</b></div>
+              <div>1、上网查询：待定http://47.103.35.8/brics/html/index.html（苏州院网站，细胞信息查询界面），是否有您所需细胞，点开资源详情，查看细胞信息资料，确定细胞是否合适您的研究使用。</div>
+              <div>2、认真阅读储备实验细胞相关培养知识，并做好相应软硬件准备，如二氧化碳细胞培养箱、培养基、添加成分等。</div>
+              <div>3、查看细胞信息资料，确定技术研发服务中心有您需要的细胞，请联系我们：</div>
+            </div>
+            -->
+          </div>
+         </div>
+       </div> 
+       
+       
+        <!-- 模板三 -->
+       <!-- CCRB Project-->
+      <div class="toggle-cont" id="data14" style="display: none">
+        <ul class="deteil-nav deteil-nav-cross" id="toggle14Tab" >
+          <!--  
+          <li><a data-id="toggle1" class="active" href="javascript:void(0);">标题一</a></li>
+          <li><a data-id="toggle2" href="javascript:void(0);">标题二</a></li>
+          <li><a data-id="toggle3" href="javascript:void(0);">标题三</a></li>
+          -->
+        </ul>
+        <div class="toggle-cont" id="toggle14list" style="display: block">
+          <div class="toggle-item" id="toggle14Text">
+            <!--  
+            <div class="text-box no-index" >
+              <div class="text-title">细胞资源共享服务</div>
+              <div><b>1.细胞信息查询功能（细胞信息及报价等）</b></div>
+              <div><b>2.细胞产品订购流程</b></div>
+              <div>1、上网查询：待定http://47.103.35.8/brics/html/index.html（苏州院网站，细胞信息查询界面），是否有您所需细胞，点开资源详情，查看细胞信息资料，确定细胞是否合适您的研究使用。</div>
+              <div>2、认真阅读储备实验细胞相关培养知识，并做好相应软硬件准备，如二氧化碳细胞培养箱、培养基、添加成分等。</div>
+              <div>3、查看细胞信息资料，确定技术研发服务中心有您需要的细胞，请联系我们：</div>
+            </div>
+            -->
+          </div>
+         </div>
+       </div> 
+   
+       <!-- 模板四（可供应细胞详情） -->
+      <div class="toggle-cont" id="kgyxbDiv" style="display: none">
+        <div class="deteil-box">
+          <div class="deteil-item">
+
+            <!---新增内容-->
+            <div class="pro-list">
+
+              <div class="h-title" >
+                <span style='width:5%'>序号</span>
+                <span style='width:15%'>名称</span>
+                <span style='width:10%'>编号</span>
+                <span style='width:40%'>描述</span>
+                <span style='width:20%'>类型</span>
+                <span style='width:10%'>说明</span>
+               
+                
+               <!--   <span>价格</span>-->
+              </div>
+              <ul id="kgyxbList">
+              <!--  
+                <li>
+                  <a href="javascript:void(0)" onclick="openKgyxq()">
+                    <span>CLC1</span>
+                    <span>MCL0001</span>
+                    <span>人肝癌细胞</span>
+                    <span>肿瘤细胞</span>
+                    <span>1500</span>
+                  </a>
+                </li>
+            
+                -->
+              </ul>
+          
+              <div class="pro-page-div">
+                 <div class="pagination" id="kgyxbpagination"></div>
+              </div>
+            </div>
+
+
+            <!---新增内容-->
+
+          </div>
+        </div>
+      </div>
+      
+      
+      
+       <!-- 模板五（资源库介绍单独样式） -->
+      <div class="toggle-cont" id="toggle_kgyxq" style="display: none">
+        <div class="deteil-box">
+          <div class="deteil-item">
+
+            <!---新增内容-->
+            <div class="pro-img" >
+              <div id="kgyxq_img"></div>
+              <div id="kgyxq_file"></div>
+              <div class="back-btn">
+                <a href="javascript:openKgyxqback();">返回</a>
+              </div>
+
+            </div>
+            <!---新增内容-->
+          </div>
+        </div>
+      </div>
+      
+      
+      
+       <div class="toggle-cont" id="data21">
+      
+        <!-- 模板一  鉴定平台-平台介绍 -->
+        <div class="toggle-item"  >
+          <div class="text-box no-index" id="data21Text">
+            <!--  
+            <div class="text-title">细胞资源共享服务</div>
+            <div><b>1.细胞信息查询功能（细胞信息及报价等）</b></div>
+            <div><b>2.细胞产品订购流程</b></div>
+            <div>1、上网查询：待定http://47.103.35.8/brics/html/index.html（苏州院网站，细胞信息查询界面），是否有您所需细胞，点开资源详情，查看细胞信息资料，确定细胞是否合适您的研究使用。</div>
+            <div>2、认真阅读储备实验细胞相关培养知识，并做好相应软硬件准备，如二氧化碳细胞培养箱、培养基、添加成分等。</div>
+            <div>3、查看细胞信息资料，确定技术研发服务中心有您需要的细胞，请联系我们：</div>
+            -->
+          </div>
+          <!-- 
+          <div class="link-title" id="file_down"></div>
+          <ul class="link-to" id="file_url">
+          </ul>
+           -->
+        </div>
+      </div>
+      
+      
+       <!-- 模板三 -->
+       <!-- 鉴定平台-STR检测-->
+      <div class="toggle-cont" id="data22" style="display: none">
+        <ul class="deteil-nav deteil-nav-cross" id="toggle22Tab" >
+          <!--  
+          <li><a data-id="toggle1" class="active" href="javascript:void(0);">标题一</a></li>
+          <li><a data-id="toggle2" href="javascript:void(0);">标题二</a></li>
+          <li><a data-id="toggle3" href="javascript:void(0);">标题三</a></li>
+          -->
+        </ul>
+        <div class="toggle-cont" id="toggle22list" style="display: block">
+          <div class="toggle-item" id="toggle22Text">
+            <!--  
+            <div class="text-box no-index" >
+              <div class="text-title">细胞资源共享服务</div>
+              <div><b>1.细胞信息查询功能（细胞信息及报价等）</b></div>
+              <div><b>2.细胞产品订购流程</b></div>
+              <div>1、上网查询：待定http://47.103.35.8/brics/html/index.html（苏州院网站，细胞信息查询界面），是否有您所需细胞，点开资源详情，查看细胞信息资料，确定细胞是否合适您的研究使用。</div>
+              <div>2、认真阅读储备实验细胞相关培养知识，并做好相应软硬件准备，如二氧化碳细胞培养箱、培养基、添加成分等。</div>
+              <div>3、查看细胞信息资料，确定技术研发服务中心有您需要的细胞，请联系我们：</div>
+            </div>
+            -->
+          </div>
+         </div>
+       </div> 
+       
+       
+       
+  
+   </div>
+   
+</div>
+
+    
+    
+    
+    
+
+  <!--footer is begin-->
+  <div class="brisc-section footer">
+    <div class="section-cont">
+      <!-- 网站尾部 -->
+      <ul class="footer-link clearfix" id="menu_buto"></ul>
+      <div class="footer-ad" id="footer_text">
+     
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script src="../assets/libs/jquery-2.1.3/jquery-2.1.3.min.js"></script>
+  <script src="../assets/libs/pagination/pagination.min.js"></script>
+  <script src="../assets/js/public.js"></script>
+  <!-- 私人js -->
+  <script src="../assets/js/commen.js"></script>
+  <!--私有js-->
+  <script src="../assets/js/template11.js"></script>
+<script type="text/javascript">
+
+//$('#xbzx_img').attr("src","../../assets/images/kv/xbzx"+tid+".jpg");
+
+
+/* function openKgyxqback(){
+	$("#toggle_kgyxb").show();
+	$("#toggle_kgyxq").hide();
+} */
+
+
+function clear_btn(){
+	$("#rsv1").val("null");
+	$("#rsv2").val("");
+	$("#rsv3").val("null");
+	$("#rsv4").val("");
+	$("#rsv5").val("null");
+	$("#rsv6").val("");
+	$("#rsv7").val("null");
+	$("#rsv8").val("");
+	$("#rsv9").val("null");
+	$("#rsv10").val("");
+	$("#rsv11").val("null");
+	$("#rsv12").val("");
+	$("#rsv13").val("null");
+	$("#rsv14").val("");
+	$("#rsv15").val("null");
+	$("#rsv16").val("");
+	$("#rsv17").val("null");
+	$("#rsv18").val("");
+}
+
+function change(index,id) {
+
+    $("#"+id+"search-input").hide();
+    $("#"+id+"search-form").hide();
+
+    if(index==1){
+      $("#"+id+"search-input").show();
+      $("#"+id+"tab1").addClass('btn-active');
+      $("#"+id+"tab2").removeClass('btn-active');
+    }else{
+      $("#"+id+"search-form").show();
+      $("#"+id+"tab1").removeClass('btn-active');
+      $("#"+id+"tab2").addClass('btn-active');
+    }
+
+  }
+
+  function search_show(num,id){
+
+      if(num==1){
+    	  $("#"+6+"search_li4").show();
+    	  $("#"+6+"search_li5").show();
+    	  $("#"+6+"search_li6").show();
+    	  $("#"+6+"search_li7").show();
+    	  $("#"+6+"search_li8").show();
+    	  $("#"+6+"search_li9").show();
+    	  $("#"+6+"search_all").attr("onclick","search_show(0,'"+id+"')");
+    	  $("#"+6+"search_all").html("<img src='../assets/images/topjt.png'/>收起")
+      }else{
+    	  $("#"+6+"search_li4").hide();
+    	  $("#"+6+"search_li5").hide();
+    	  $("#"+6+"search_li6").hide();
+    	  $("#"+6+"search_li7").hide();
+    	  $("#"+6+"search_li8").hide();
+    	  $("#"+6+"search_li9").hide();
+    	  $("#"+6+"search_all").attr("onclick","search_show(1,'"+id+"')");
+    	  $("#"+6+"search_all").html("<img src='../assets/images/xjt.png'/>更多搜索字段")
+      }                                    
+	  
+  }
+
+</script>
+</html>

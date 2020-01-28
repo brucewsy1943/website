@@ -1,0 +1,125 @@
+.academic-box .ad-item .ad-text {
+  width: auto;
+}
+.academic-box .ad-item {
+ /*  width: 32%; */
+  width: 24%;
+  height:423px;
+  float: left;
+  margin-right: 1.3%;
+  margin-top: 24px;
+  border: 1px solid #a0a0a0;
+  background: #fff;
+}
+.academic-box .ad-item.small{
+ /*  height: 210px; */
+}
+.academic-box .ad-item.cyhd{
+  height: 465px;
+}
+.academic-box .ad-item:nth-child(4n) {
+  margin-right: 0;
+}
+.academic-box .ad-item .tips {
+  /* position: relative;
+  margin-top: 50px; */
+  width: 89%;
+}
+.academic-box .time-box {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.academic-box .time-box img{
+  width:100%;
+  margin:0;
+}
+
+.academic-box .time-box .time {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 45%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  color: #fff;
+  background: #9fa0a0;
+  text-align: center;
+  z-index: 1;
+}
+.academic-box .time-box .time::before {
+  position: absolute;
+  top: 9px;
+  left: -22px;
+  content: '';
+  display: inline-block;
+  width: 43px;
+  height: 43px;
+  transform: rotate(45deg);
+  background: #9fa0a0;
+  z-index: 0;
+}
+.academic-box.academic-box2 .icon-more {
+  right: 65px;
+}
+.academic-box.academic-box2 .time-box {
+  height: auto;
+}
+.pagination {
+  margin-top: 0;
+}
+.academic-box4 {
+  margin-top: 50px;
+}
+.academic-box4 .ad-item {
+  width: 24%;
+  margin-right: 1.25%;
+  cursor: default;
+}
+.academic-box4 .ad-item:nth-child(3) {
+  margin-right: 1.25%;
+}
+.academic-box4 .ad-item:last-child {
+  margin-right: 0;
+}
+.academic-box4 .ad-item .ad-text {
+  width: 100%;
+  font-size: 1.8rem;
+}
+.academic-box4 .ad-item .ad-text .left {
+  float: left;
+}
+.academic-box4 .ad-item .ad-text .right {
+  float: right;
+  color: #4672a8;
+}
+.academic-box4 .time-box {
+  height: auto;
+}
+.leader-box{
+  text-align:center;
+  margin:100px auto 0;
+  width: 30%;
+  font-size: 16px;
+}
+.leader-box li{
+  padding-bottom:10px;
+}
+.leader-box li span:nth-child(1){
+  display:inline-block;
+  width: 50%;
+  text-align:left;
+  font-weight:600;
+}
+.leader-box li span:nth-child(2){
+  display:inline-block;
+  width: 50%;
+  text-align:left;
+}
+.user-box .ad-item{
+  height: 398px; 
+}
+.user-box .ad-item .tips{
+	width:90%;
+}

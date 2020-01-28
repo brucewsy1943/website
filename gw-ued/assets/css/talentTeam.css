@@ -1,0 +1,22 @@
+.deteil-box {
+  width: 1000px;
+  margin: 35px auto;
+}
+.deteil-box p {
+  font-size: 1.4rem;
+  text-align: justify;
+  line-height: 1.8em;
+}
+.deteil-box .index {
+  padding: 15px 0;
+  text-indent: 2em;
+}
+.deteil-box .deteil-item .deteil-title {
+  color: #fff;
+  background: #8b2028;
+  font-size: 1.6rem;
+  padding: 5px 10px;
+}
+.deteil-box .deteil-item h3 {
+  padding: 15px 0 0;
+}

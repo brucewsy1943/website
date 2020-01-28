@@ -1,0 +1,50 @@
+// 公共样式
+@import "variable.less";
+@import "mixin.less";
+
+
+.deteil-box{
+    p{
+        font-size: 1.4rem;
+        text-align: justify;
+        line-height: 1.8em;
+    }
+    .index{
+        padding: 15px 0;
+        text-indent: 2em;
+    }
+    .deteil-item{
+        display: inline-block;
+        margin-bottom: 25px;
+        .deteil-title{
+            color: #fff;
+            background: @main-color;
+            font-size: 1.8rem;
+            padding: 5px 10px;
+            margin-bottom: 10px;
+        }
+        h3{
+            padding: 15px 0 0;
+        }
+    }
+}
+.img-box{
+    margin: 35px 0 0;
+    img{
+        width: 32%;
+        margin-right: 1.6%;
+        &:nth-child(3n){
+            margin-right: 0;
+        }
+    }
+}
+.link-box{
+    margin: 25px 0;
+    a{
+        display: inline-block;
+        color: @color-blue;
+        font-size: 1.6rem;
+        width: 20%;
+        padding: 5px 0;
+    }
+}

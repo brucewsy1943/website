@@ -1,0 +1,120 @@
+.icon-back {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -0 -64px;
+}
+.icon-cancel {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -0 -80px;
+}
+.icon-clear {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -16px -64px;
+}
+.icon-cut {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -32px -64px;
+}
+.icon-edit_add {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -48px -64px;
+}
+.icon-edit_remove {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -64px -64px;
+}
+.icon-filesave {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -80px -32px;
+}
+.icon-filter {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -64px -48px;
+}
+.icon-help {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -80px -48px;
+}
+.icon-large_chart {
+    width: 32px; height: 32px;
+    background: url('theme-icon.png') -0 -0;
+}
+.icon-large_clipart {
+    width: 32px; height: 32px;
+    background: url('theme-icon.png') -32px -0;
+}
+.icon-large_picture {
+    width: 32px; height: 32px;
+    background: url('theme-icon.png') -0 -32px;
+}
+.icon-large_shapes {
+    width: 32px; height: 32px;
+    background: url('theme-icon.png') -32px -32px;
+}
+.icon-large_smartart {
+    width: 32px; height: 32px;
+    background: url('theme-icon.png') -64px -0;
+}
+.icon-lock {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -80px -64px;
+}
+.icon-man {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -64px -32px;
+}
+.icon-mini_add {
+    width: 7px; height: 7px;
+    background: url('theme-icon.png') -8px -96px;
+}
+.icon-mini_edit {
+    width: 8px; height: 8px;
+    background: url('theme-icon.png') -0 -96px;
+}
+.icon-mini_refresh {
+    width: 6px; height: 7px;
+    background: url('theme-icon.png') -15px -96px;
+}
+.icon-more {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -64px -80px;
+}
+.icon-no {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -80px -80px;
+}
+.icon-ok {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -96px -0;
+}
+.icon-pencil {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -96px -16px;
+}
+.icon-print {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -96px -32px;
+}
+.icon-redo {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -96px -48px;
+}
+.icon-reload {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -96px -64px;
+}
+.icon-search {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -48px -80px;
+}
+.icon-sum {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -32px -80px;
+}
+.icon-tip {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -16px -80px;
+}
+.icon-undo {
+    width: 16px; height: 16px;
+    background: url('theme-icon.png') -96px -80px;
+}

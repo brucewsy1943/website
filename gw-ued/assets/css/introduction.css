@@ -1,0 +1,105 @@
+.text-box {
+   /* text-align: center; */
+  /* width: 1000px; */
+  width: 65%;
+  /* margin: 35px auto; */
+  margin: 0px auto;
+  min-height: 300px;
+}
+
+
+.text-box .text-title {
+  font-size: 2.6rem;
+  color: #4672a8;
+  text-align: center;
+  padding: 20px 0;
+}
+.text-box p {
+/*    text-indent: 2em; */
+}
+.text-box.no-index p {
+   text-indent: 0;
+}
+.text-box div,
+.text-box p {
+  font-size: 1.4rem;
+  line-height: 2em;
+  text-align: justify;
+  
+}
+.text-box img {
+  width: 64%;
+  margin: auto auto 30px auto;
+}
+.video-box {
+  position: relative;
+  width: 750px;
+  height: 424px;
+  margin: 30px auto 10px;
+}
+.video-box img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.toggle-cont {
+  float: right;
+  width: 83%;
+}
+.toggle-cont .toggle-item {
+  display: none;
+}
+.toggle-cont .toggle-item:nth-child(1) {
+  display: block;
+}
+.toggle-cont2 {
+  width: 920px;
+}
+.toggle-cont2 .text-box {
+  width: 100%;
+}
+.brics-table {
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+  margin: 25px 0;
+}
+.brics-table tr {
+  border-bottom: 1px solid #ccc;
+}
+.brics-table tr td {
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+.hy-table th {
+  padding: 10px 15px;
+}
+.hy-table thead th{
+  text-align: center;
+  padding: 10px 0;
+}
+.hy-table tr td:nth-child(2){
+  min-width: 300px;
+}
+.link-to {
+  margin-top: 25px;
+}
+
+.link-to li {
+  text-align: left;
+}
+.link-to a {
+  color: #4672a8;
+  line-height: 2em;
+  text-decoration: underline;
+  font-size: 1.6rem;
+}
+.link-to div {
+  text-decoration: none;
+  color: #4672a8;
+  font-size: 1.6rem;
+}
+.link-title {
+  margin-top: 35px;
+  font-size: 1.6rem;
+}

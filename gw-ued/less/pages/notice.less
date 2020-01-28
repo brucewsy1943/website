@@ -1,0 +1,28 @@
+// 公共样式
+@import "../variable.less";
+@import "../mixin.less";
+
+.notice-box{
+  .list {
+    li{
+      padding: 10px;
+      font-size: 1.4rem;
+      border-bottom: 1px solid #F5F6EE;
+      cursor: pointer;
+      color: #333;
+      &:hover{
+        color: #000;
+      }
+      span:nth-child(1){
+        float: left;
+      }
+      span:nth-child(2){
+        float: right;
+        color: #888;
+      }
+    }
+  }
+  .pagination{
+    margin-top: 20px;
+  }
+}

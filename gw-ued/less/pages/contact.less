@@ -1,0 +1,81 @@
+// 公共样式
+@import "../variable.less";
+@import "../mixin.less";
+
+.detail-main{
+  padding: 35px 0;
+  width: 1000px;
+}
+.about-us{
+  float: left;
+  width: 40%;
+  .map{
+    width: 400;
+    height:250px;
+    margin: 35px 0;
+  }
+  .addess-box{
+    // text-align: center;
+    font-size: 1.4rem;
+    li{
+      padding-bottom: 30px;
+      padding-left: 35px;
+    }
+    .icon-map{
+      background: url('@{icons}/icon-map.png') left top 5px no-repeat;
+      .background-size(13px 13px);
+    }
+    .icon-internet{
+      background: url('@{icons}/icon-internet.png') left top 5px no-repeat;
+      .background-size(13px 13px);
+    }
+    .icon-tel{
+      background: url('@{icons}/icon-tel.png') left top 5px no-repeat;
+      .background-size(13px 13px);
+    }
+  }
+}
+.msg-board{
+  float: right;
+  width: 50%;
+  background: #dac0b4;
+  padding: 30px;
+  margin-top: 25px;
+  .title{
+    color: #fff;
+    font-size: 2.4rem;
+    padding: 0 0 25px;
+  }
+  label{
+    display: block;
+    margin-bottom: 30px;
+    input{
+      height: 35px;
+      line-height: 35px;
+      background: #fff;
+      border: 0;
+      box-shadow: 0;
+      width: 48%;
+      padding-left: 15px;
+      &:nth-child(2){
+        float: right;
+      }
+      &.input-full{
+        width: 100%;
+      }
+    }
+  }
+  textarea{
+    width: 100%;
+    padding-left: 15px;
+    padding-top: 15px;
+    border: 0;
+  }
+  .btn-submit{
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 3px 15px;
+    margin-top: 25px;
+  }
+}

@@ -1,0 +1,165 @@
+/*-------------------------------------------------------
+ All Rights Reserved, Copyright (C) 2013, menuyeguo, Ltd.
+-------------------------------------------------------*/
+
+body { font:12px/1.2em ;}
+
+a,
+a:link { color:#000; text-decoration:none; outline:none;}
+a:hover,
+a:focus { text-decoration:none; color:#39f;}
+
+.pd3 { padding:3px;}
+.pd5 { padding:5px;}
+.pd10 { padding:10px;}
+
+label,
+button,
+input,
+select,
+textarea { font-size:12px; vertical-align: middle;}
+
+input,
+button,
+select,
+textarea { font:12px/1.2em Microsoft YaHei;}
+
+select,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+input[type="radio"],
+input[type="checkbox"] { cursor: pointer;}
+
+.tabs-tool { border-top:0;}
+.menu-text,
+.menu-textarea { padding:3px; /* border:1px #95b8e7 solid; */ width:260px;}
+.menu-text { height:14px; line-height:14px; }
+
+.menu-header { 
+	height:50px; 
+	position:relative; 
+	z-index:0; 
+	overflow:hidden; 
+	/* border-bottom:1px #95b8e7 solid; 
+	background:url(../img/index/frame-title.jpg) bottom repeat-x; */
+	/* background: #049ec4; */
+	background: #8b2028; 
+	 
+	
+	
+	}
+
+.menu-header-left {width: 200px;height:100%;position:absolute;/* z-index:1; background:#2f333e;*/color:#fff;}
+.menu-header-left img{position:absolute;width:90%;margin:auto;top:5px;left:5px;}
+.menu-header-left p {position:relative;width: 200%;height: 100%;font-size: 20px;font-family: LiSu;padding-left: 100%;margin: 5%}
+
+.menu-header-right { position:absolute; z-index:1; right:5px; top:1px;text-align:right;color:#fff;}
+.menu-header-right p { line-height:0.7em;color:#fff;}
+.menu-header-right a {  margin:0 5px;color:#fff;}
+
+.menu-sidebar { width:200px;}
+#menu-sidebar_tip {font-size: 20px;color: red;font-family: Fangsong;}
+.menu-side-tree .tree-node { padding:3px 0px; }
+.menu-side-tree a { display:block;}
+.menu-side-tree .tree-node-selected { padding:2px 0; border:1px #fade23 solid;}
+
+.menu-toolbar-button,
+.menu-toolbar-search { padding:3px 5px;}
+
+.menu-footer { height:20px; padding:5px; text-align:center; overflow:hidden; background:#f3f3f3;}
+
+
+
+.tree-node {
+  height: 35px;
+ /*  background: #202020b5; */
+}
+
+
+.tree-title {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.tree-expanded,
+.tree-collapsed,
+.tree-folder,
+.tree-file,
+.tree-checkbox,
+.tree-indent {
+  vertical-align:unset;
+  margin-top: 9px;
+}
+
+
+.tree-title {
+  color:#fff;
+ /*  vertical-align:text-bottom; */
+  padding: 7px 6px;
+  line-height: inherit;
+}
+
+.tree-node-selected {
+  /* background: #049ec4; */
+  /* background: #1abc9c; */
+     background: #507EBC;
+  
+  
+  
+}
+
+
+.tree-node-hover {
+   background: #979ba5;
+  /*color: red; */
+    opacity:.8; 
+}
+
+.tabs-p-tool a{
+	width: 6px;
+	height: 7px;
+	padding-left: 3px;
+	margin-top: 2px;	
+}
+
+
+#frameindex{width: 50%;margin-left: 25%;margin-top: 10%;}
+#frameindex img{width:100%;margin:auto;bottom: 1;}
+#frameindex h1{font-size: 40px;font-family: Fangsong;text-align: center;}
+#frameindex h2{font-size: 20px;font-family: Kaiti;text-align: center;}
+
+.menunotice{
+	color: red;
+	font-size: 18px;
+	font-family: Fangsong;
+}
+.datagrid .datagrid-pager{
+	position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.datagrid-row-selected {
+  background: #999;
+  color: #fff;
+}
+
+/* 设置滚动条的样式 */
+        ::-webkit-scrollbar {
+        width:8px;
+        background-color: black;
+        }
+
+        /* 滚动槽 */
+        ::-webkit-scrollbar-track {
+        border-radius:10px;
+        }
+
+        /* 滚动条滑块 */
+        ::-webkit-scrollbar-thumb {
+        border-radius:10px;
+        background: #049ec4;
+        }
+        

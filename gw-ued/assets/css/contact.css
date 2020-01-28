@@ -1,0 +1,82 @@
+.detail-main {
+  padding: 35px 0;
+  width: 1000px;
+}
+.about-us {
+  float: left;
+  width: 40%;
+}
+.about-us .map {
+  width: 400;
+  height: 250px;
+  margin: 35px 0;
+}
+.about-us .addess-box {
+  font-size: 1.4rem;
+}
+.about-us .addess-box li {
+  padding-bottom: 30px;
+  padding-left: 35px;
+}
+.about-us .addess-box .icon-map {
+  background: url('../images/icons/icon-map.png') left top 5px no-repeat;
+  -moz-background-size: auto 13px 13px;
+  -webkit-background-size: auto 13px 13px;
+  background-size: auto 13px 13px;
+}
+.about-us .addess-box .icon-internet {
+  background: url('../images/icons/icon-internet.png') left top 5px no-repeat;
+  -moz-background-size: auto 13px 13px;
+  -webkit-background-size: auto 13px 13px;
+  background-size: auto 13px 13px;
+}
+.about-us .addess-box .icon-tel {
+  background: url('../images/icons/icon-tel.png') left top 5px no-repeat;
+  -moz-background-size: auto 13px 13px;
+  -webkit-background-size: auto 13px 13px;
+  background-size: auto 13px 13px;
+}
+.msg-board {
+  float: right;
+  width: 50%;
+  background: #dac0b4;
+  padding: 30px;
+  margin-top: 25px;
+}
+.msg-board .title {
+  color: #fff;
+  font-size: 2.4rem;
+  padding: 0 0 25px;
+}
+.msg-board label {
+  display: block;
+  margin-bottom: 30px;
+}
+.msg-board label input {
+  height: 35px;
+  line-height: 35px;
+  background: #fff;
+  border: 0;
+  box-shadow: 0;
+  width: 48%;
+  padding-left: 15px;
+}
+.msg-board label input:nth-child(2) {
+  float: right;
+}
+.msg-board label input.input-full {
+  width: 100%;
+}
+.msg-board textarea {
+  width: 100%;
+  padding-left: 15px;
+  padding-top: 15px;
+  border: 0;
+}
+.msg-board .btn-submit {
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 3px 15px;
+  margin-top: 25px;
+}

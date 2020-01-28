@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Language" content="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.3">
+  <title>中国科学院生物化学与细胞生物学苏州研究院</title>
+  
+  <!--共用css-->
+  <link rel="icon" href="../assets/images/brics-logo.ico" type="image/x-icon" />
+  <link href="../assets/libs/pagination/pagination.css" rel="stylesheet">
+  <link href="../assets/css/base.css" rel="stylesheet">
+  <link href="../assets/css/commen.css" rel="stylesheet">
+  <!--私有css-->
+  <link href="../assets/css/contact.css" rel="stylesheet">
+</head>
+<body>
+<div class="page detail">
+  <!-- nav is begin -->
+  <div class="brisc-section nav">
+    <div class="section-cont clearfix">
+        <a href="index.html" href=""><img class="logo" src="../assets/images/brics-logo.png"></a>
+        <!-- 网站头部 -->
+        <ul class="nav-ul clearfix" id="menu_head"></ul>
+    </div>
+  </div>
+  <!-- main is begin -->
+  <img class="img-default" id="temp_img" src="../assets/images/kv/kv-lxwm.jpg" alt="pro-pic">
+  <div class="section-cont detail-main clearfix">
+    <div class="about-us" id="temp_cont">
+      <img class="logo2" src="../assets/images/brics-logo2.png" alt="">
+      <img style="width:100%; margin:25px auto;" src="../assets/images/map.jpg" alt="">
+      <ul class="addess-box">
+        <li class="icon-map">苏州工业园区金鸡湖大道99号苏州纳米城西北区10幢301
+<br><br>301,NW-10,Nanopolis Suzhou,99 Jinji Lake Avenue,Suzhou Industrial Park,Jiangsu Province,P.R.China</li>
+        <li class="icon-internet"><a href="http://www.sibcb.ac.cn/brics">www.sibcb.ac.cn/brics</a></li>
+      </ul>
+    </div>
+    <form class="msg-board" action="" method="post" id="lxwm_form" name="lxwm_form">
+      <label class="title">留言板</label>
+      <input type="hidden"  name="type" value="lxwm">
+      <label>
+        <input type="text" placeholder="姓名" name="title">
+        <input type="tel" id="phone" maxlength="11" placeholder="手机" name="intro">
+      </label>
+      <label>
+        <input type="text" id="Email" placeholder="Email" name="subhead">
+        <input type="tel" placeholder="电话" name="pid" >
+      </label>
+      <label>
+        <input class="input-full" type="text" placeholder="公司名称" name="img">
+      </label>
+      <textarea id="lyLand" name="content" id="" cols="30" rows="10" placeholder="我要留言"></textarea>
+      <p class="error-tip">请输入正确的验证码</p>
+      <a class="btn-submit" href="javascript:;" onclick="addLxwm()">确认提交</a>
+    </form>
+  </div>
+  <!--footer is begin-->
+  <div class="brisc-section footer">
+    <div class="section-cont">
+      <!-- 网站尾部 -->
+      <ul class="footer-link clearfix" id="menu_buto"></ul>
+      <div class="footer-ad" id="footer_text">
+     
+      </div>
+    </div>
+  </div>
+  <!-- submit pop -->
+  <div class="pop-bg">
+    <div class="pop-cont">
+      <p id="submitCont">留言成功</p>
+      <a class="besure-btn" href="javascript:;">确定</a>
+    </div>
+  </div>
+</div>
+<!--共用js-->
+  <script src="../assets/libs/jquery-2.1.3/jquery-2.1.3.min.js"></script>
+  <script src="../assets/libs/pagination/pagination.min.js"></script>
+  <script src="../assets/js/commen.js"></script>
+  <script src="../assets/js/public.js"></script>
+  <!-- 引入百度地图 
+  <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>-->
+  <!--私有js-->
+  <script src="../assets/js/template6.js"></script>
+<script type="text/javascript">
+ 
+var errorTipDom = $('.error-tip');
+// 提交事件
+function addLxwm(){
+  var lyLand = document.getElementById('lyLand').value;
+  var phone = document.getElementById('phone').value;
+  var Email = document.getElementById('Email').value;
+  var reg = /^(\w-*\.*)+@(\w-?)+(\.\w{2,})+$/;
+  // 验证手机号
+  if(!(/^1[34578]\d{9}$/.test(phone))){
+    errorTipDom.show().text('请输入正确的手机号！') ;
+    return false; 
+  }
+  if(!reg.test(Email)){
+    errorTipDom.show().text('请输入正确的邮箱地址！') ;
+    return false; 
+  }
+  if (lyLand == null || lyLand == "") {
+    errorTipDom.show().text('留言板不能为空') ;
+    return false; 
+  }
+  
+ 
+      $.ajax({
+          async: false,
+          type: "POST",
+          url:'../../newsinfo/addObjectOnly',
+          contentType : "application/x-www-form-urlencoded; charset=utf-8",
+          data:$("#lxwm_form").serialize(),
+          dataType: "json",
+          success: function (data) {
+        	  
+        	  //留言成功
+        	  if (data.status) {
+        	    $('.pop-bg').show();
+        	    $('#submitCont').text('留言成功');
+        	  } else {
+        	    //留言失败
+        	    $('.pop-bg').show();
+        	    $('#submitCont').text('留言失败');
+        	  }
+        	  
+          },
+          error: function () {
+        	  $('.pop-bg').show();
+      	      $('#submitCont').text('留言失败');
+          }
+      });
+
+  
+
+  
+	// $("form[name='lxwm_form']").submit();
+	
+}
+$('input').add($('textarea')).focus(function(){
+  errorTipDom.hide();
+});
+// 关闭弹框
+$('.besure-btn').on('click',function(){
+  $('.pop-bg').hide();
+});
+/*
+
+  //创建和初始化地图函数：
+  function initMap(){
+      createMap();//创建地图
+      setMapEvent();//设置地图事件
+      addMapControl();//向地图添加控件
+  }
+  
+  //创建地图函数：
+  function createMap(){
+      var map = new BMap.Map("allmap");//在百度地图容器中创建一个地图
+      var point = new BMap.Point(120.729768,31.330853);//定义一个中心点坐标
+      map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+      window.map = map;//将map变量存储在全局
+  }
+  
+  //地图事件设置函数：
+  function setMapEvent(){
+      map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+      map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+      map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+      map.enableKeyboard();//启用键盘上下左右键移动地图
+  }
+  
+  //地图控件添加函数：
+  function addMapControl(){
+      //向地图中添加缩放控件
+var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_ZOOM});
+map.addControl(ctrl_nav);
+      //向地图中添加缩略图控件
+var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:0});
+map.addControl(ctrl_ove);
+      //向地图中添加比例尺控件
+var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT});
+map.addControl(ctrl_sca);
+  }
+  
+  
+  initMap();//创建和初始化地图
+  
+  */
+</script>
+</body>
+</html>

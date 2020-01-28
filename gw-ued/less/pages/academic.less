@@ -1,0 +1,94 @@
+// 公共样式
+@import "../variable.less";
+@import "../mixin.less";
+
+.academic-box{
+  .ad-item .ad-text{
+    width: auto;
+  }
+  .ad-item{
+    width: 32%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 24px;
+    border: 1px solid #a0a0a0;
+    background: #fff;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+    .tips{
+      position: relative;
+      margin-top: 50px;
+    }
+  }
+  .time-box{
+    position: relative;
+    // height: 284.5px;
+    height: auto;
+    overflow: hidden;
+    .time{
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 45%;
+      height: 30px;
+      line-height: 30px;
+      font-size: 16px;
+      color: #fff;
+      background: #9fa0a0;
+      text-align: center;
+      z-index: 1;
+      &::before{
+        position: absolute;
+        top: 9px;
+        left: -22px;
+        content: '';
+        display: inline-block;
+        width: 43px;
+        height: 43px;
+        transform: rotate(45deg);
+        background: #9fa0a0;
+        z-index: 0;
+      }
+    }
+  }
+  &.academic-box2 {
+    .icon-more{
+      right: 65px;
+    }
+    .time-box{
+      height: auto;
+    }
+  }
+}
+.pagination{
+  margin-top: 0;
+}
+.academic-box4{
+  margin-top: 50px;
+  .ad-item{
+    width: 24%;
+    margin-right: 1.25%;
+    cursor: default;
+    &:nth-child(3){
+      margin-right: 1.25%;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+    .ad-text{
+      width: 100%;
+      font-size: 1.8rem;
+      .left{
+        float: left;
+      }
+      .right{
+        float: right;
+        color: @color-blue;
+      }
+    }
+  }
+  .time-box{
+    height: auto;
+  }
+}

@@ -1,0 +1,71 @@
+// 公共样式
+@import "../variable.less";
+@import "../mixin.less";
+
+.recruit-box{
+  .left{
+    width: 100%;
+    padding: 15px 25px 0 0;
+  }
+  .right{
+    float: right;
+    width: 25%;
+  }
+}
+.brisc-table{
+  width: 98%;
+  text-align: left;
+  font-size: 1.4rem;
+  tr{
+    border-bottom: 1px solid #f2f2f2;
+    cursor: default;
+  }
+  tbody tr:hover{
+    background: #f7f7f7;
+  }
+  td{
+    width: 25%;
+    padding: 15px 0;
+    padding-left: 10px;
+  }
+}
+.brisc-tab{
+  padding:15px 0 0 20px;
+  font-size: 1.4rem;
+  li{
+    padding: 10px 0;
+  }
+}
+.job-box{
+  font-size: 1.4rem;
+  .job-name{
+    margin: 35px 0 10px;
+  }
+  p{
+    line-height: 2em;
+  }
+}
+.email-to{
+  margin-top: 35px;
+  color: @color-blue;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.recruit-ul{
+  text-align: left;
+  font-size: 1.4rem;
+  margin-top: 25px;
+  li{
+    border-bottom: 1px solid #f2f2f2;
+    cursor: default;
+    padding: 15px 0;
+    &:hover{
+      background: #f7f7f7;
+    }
+    span{
+      display: inline-block;
+      width: 24%;
+      text-align: left
+    }
+  }
+}

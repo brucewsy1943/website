@@ -1,0 +1,7694 @@
+.upImgBtn{
+	
+	background: #049ec4;
+	color:#fff;
+	margin-left:10px;
+	margin-top:10px;
+	cursor: pointer;
+	border:0;
+	padding:5px;
+}
+
+
+.icon-accept {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -112px;
+}
+
+
+.icon-fasong {
+width: 16px; height: 16px;
+background: url('../ico/fasong.png');
+}
+
+.icon-ref_btn {
+width: 16px; height: 16px;
+background: url('../ico/ref_btn.png');
+}
+
+.icon-insert-new {
+width: 16px; height: 16px;
+background: url('../ico/insert-new1.png');
+}
+
+.icon-edit-new {
+width: 16px; height: 16px;
+background: url('../ico/edit-new1.png');
+}
+
+.icon-delet-new {
+width: 16px; height: 16px;
+background: url('../ico/delet-new1.png');
+}
+
+.icon-issue-new {
+width: 16px; height: 16px;
+background: url('../ico/issue-new1.png');
+}
+
+.icon-repeal-new {
+width: 16px; height: 16px;
+background: url('../ico/repeal-new1.png');
+}
+
+
+.icon-search-new {
+width: 16px; height: 16px;
+background: url('../ico/search-new1.png');
+}
+
+.icon-import-new {
+width: 16px; height: 16px;
+background: url('../ico/import-new1.png');
+}
+
+.icon-export-new {
+width: 16px; height: 16px;
+background: url('../ico/export-new1.png');
+}
+
+
+
+
+
+.icon-add {
+
+background: url('../ico/icon.png') ;
+}
+
+.icon-first {
+/* width: 16px; height: 16px; */
+background: url('../ico/first.png') ;
+}
+
+.icon-second {
+/* width: 16px; height: 16px; */
+/* background: url('../ico/second.png') ; */
+background: url('../ico/yuan.png') ;
+}
+
+.icon-third {
+/* width: 16px; height: 16px; */
+background: url('../ico/third.png') ;
+}
+
+.icon-add1 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -448px;
+}
+
+.icon-advancedsettings {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -480px;
+}
+
+.icon-advancedsettings2 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -512px;
+}
+
+.icon-anchor {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -544px;
+}
+
+.icon-application {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -352px;
+}
+
+.icon-application_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -448px;
+}
+
+.icon-application_cascade {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -608px;
+}
+
+.icon-application_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -608px;
+}
+
+.icon-application_double {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -272px;
+}
+
+.icon-application_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -32px;
+}
+
+.icon-application_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -48px;
+}
+
+.icon-application_form {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -48px;
+}
+
+.icon-application_form_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -64px;
+}
+
+.icon-application_form_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -64px;
+}
+
+.icon-application_form_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -80px;
+}
+
+.icon-application_form_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -80px;
+}
+
+.icon-application_get {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -96px;
+}
+
+.icon-application_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -96px;
+}
+
+.icon-application_home {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -96px;
+}
+
+.icon-application_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -96px;
+}
+
+.icon-application_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -96px;
+}
+
+.icon-application_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -96px;
+}
+
+.icon-application_osx {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -96px;
+}
+
+.icon-application_osx_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -96px;
+}
+
+.icon-application_osx_cascade {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -112px;
+}
+
+.icon-application_osx_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -112px;
+}
+
+.icon-application_osx_double {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -112px;
+}
+
+.icon-application_osx_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -112px;
+}
+
+.icon-application_osx_get {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -112px;
+}
+
+.icon-application_osx_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -112px;
+}
+
+.icon-application_osx_home {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -112px;
+}
+
+.icon-application_osx_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -112px;
+}
+
+.icon-application_osx_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -0;
+}
+
+.icon-application_osx_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -16px;
+}
+
+.icon-application_osx_split {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -32px;
+}
+
+.icon-application_osx_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -48px;
+}
+
+.icon-application_osx_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -64px;
+}
+
+.icon-application_osx_terminal {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -80px;
+}
+
+.icon-application_put {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -96px;
+}
+
+.icon-application_side_boxes {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -112px;
+}
+
+.icon-application_side_contract {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -128px;
+}
+
+.icon-application_side_expand {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -128px;
+}
+
+.icon-application_side_list {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -128px;
+}
+
+.icon-application_side_tree {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -128px;
+}
+
+.icon-application_split {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -128px;
+}
+
+.icon-application_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -128px;
+}
+
+.icon-application_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -128px;
+}
+
+.icon-application_tile_horizontal {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -128px;
+}
+
+.icon-application_tile_vertical {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -128px;
+}
+
+.icon-application_view_columns {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -0;
+}
+
+.icon-application_view_detail {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -16px;
+}
+
+.icon-application_view_gallery {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -32px;
+}
+
+.icon-application_view_icons {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -48px;
+}
+
+.icon-application_view_list {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -64px;
+}
+
+.icon-application_view_tile {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -80px;
+}
+
+.icon-application_xp {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -96px;
+}
+
+.icon-application_xp_terminal {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -112px;
+}
+
+.icon-arrow_divide {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -128px;
+}
+
+.icon-arrow_branch {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -144px;
+}
+
+.icon-arrow_down {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -144px;
+}
+
+.icon-arrow_ew {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -144px;
+}
+
+.icon-arrow_in {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -144px;
+}
+
+.icon-arrow_in_longer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -144px;
+}
+
+.icon-arrow_inout {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -144px;
+}
+
+.icon-arrow_join {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -144px;
+}
+
+.icon-arrow_left {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -144px;
+}
+
+.icon-arrow_merge {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -144px;
+}
+
+.icon-arrow_ne {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -144px;
+}
+
+.icon-arrow_ns {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -0;
+}
+
+.icon-arrow_nsew {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -16px;
+}
+
+.icon-arrow_nw {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -32px;
+}
+
+.icon-arrow_nw_ne_sw_se {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -48px;
+}
+
+.icon-arrow_nw_se {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -64px;
+}
+
+.icon-arrow_out {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -80px;
+}
+
+.icon-arrow_out_longer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -96px;
+}
+
+.icon-arrow_redo {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -112px;
+}
+
+.icon-arrow_refresh {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -128px;
+}
+
+.icon-arrow_refresh_small {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -144px;
+}
+
+.icon-arrow_right {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -160px;
+}
+
+.icon-arrow_right_16 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -160px;
+}
+
+.icon-arrow_rotate_anticlockwise {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -160px;
+}
+
+.icon-arrow_rotate_clockwise {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -160px;
+}
+
+.icon-arrow_se {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -160px;
+}
+
+.icon-arrow_sw {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -160px;
+}
+
+.icon-arrow_sw_ne {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -160px;
+}
+
+.icon-arrow_switch {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -160px;
+}
+
+.icon-arrow_switch_bluegreen {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -160px;
+}
+
+.icon-arrow_turn_left {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -160px;
+}
+
+.icon-arrow_turn_right {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -160px;
+}
+
+.icon-arrow_undo {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -0;
+}
+
+.icon-arrow_up {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -16px;
+}
+
+.icon-asterisk_orange {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -32px;
+}
+
+.icon-asterisk_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -48px;
+}
+
+.icon-attach {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -64px;
+}
+
+.icon-asterisk_yellow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -80px;
+}
+
+.icon-award_star_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -96px;
+}
+
+.icon-award_star_bronze_1 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -112px;
+}
+
+.icon-award_star_bronze_2 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -128px;
+}
+
+.icon-award_star_bronze_3 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -144px;
+}
+
+.icon-award_star_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -160px;
+}
+
+.icon-award_star_gold_1 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -176px;
+}
+
+.icon-award_star_gold_2 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -176px;
+}
+
+.icon-award_star_gold_3 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -176px;
+}
+
+.icon-award_star_silver_1 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -176px;
+}
+
+.icon-award_star_silver_2 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -176px;
+}
+
+.icon-award_star_silver_3 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -176px;
+}
+
+.icon-back {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -176px;
+}
+
+.icon-basket {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -176px;
+}
+
+.icon-basket_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -176px;
+}
+
+.icon-basket_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -176px;
+}
+
+.icon-basket_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -176px;
+}
+
+.icon-basket_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -176px;
+}
+
+.icon-basket_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -0;
+}
+
+.icon-basket_put {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -16px;
+}
+
+.icon-basket_remove {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -32px;
+}
+
+.icon-bell {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -48px;
+}
+
+.icon-bell_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -64px;
+}
+
+.icon-bell_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -80px;
+}
+
+.icon-bell_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -96px;
+}
+
+.icon-bell_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -112px;
+}
+
+.icon-bell_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -128px;
+}
+
+.icon-bell_silver {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -144px;
+}
+
+.icon-bell_silver_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -160px;
+}
+
+.icon-bell_silver_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -176px;
+}
+
+.icon-bell_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -192px;
+}
+
+.icon-bell_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -192px;
+}
+
+.icon-bin {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -192px;
+}
+
+.icon-bin_closed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -192px;
+}
+
+.icon-bin_empty {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -192px;
+}
+
+.icon-blank {
+width: 1px; height: 1px;
+background: url('../ico/icon.png') -638px -351px;
+}
+
+.icon-bomb {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -192px;
+}
+
+.icon-book {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -192px;
+}
+
+.icon-book_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -192px;
+}
+
+.icon-book_addresses {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -192px;
+}
+
+.icon-book_addresses_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -192px;
+}
+
+.icon-book_addresses_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -192px;
+}
+
+.icon-book_addresses_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -192px;
+}
+
+.icon-book_addresses_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -0;
+}
+
+.icon-book_addresses_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -16px;
+}
+
+.icon-book_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -32px;
+}
+
+.icon-book_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -48px;
+}
+
+.icon-book_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -64px;
+}
+
+.icon-book_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -80px;
+}
+
+.icon-book_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -96px;
+}
+
+.icon-book_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -112px;
+}
+
+.icon-book_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -128px;
+}
+
+.icon-book_next {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -144px;
+}
+
+.icon-book_open {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -160px;
+}
+
+.icon-book_open_mark {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -176px;
+}
+
+.icon-book_previous {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -192px;
+}
+
+.icon-book_tabs {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -208px;
+}
+
+.icon-book_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -208px;
+}
+
+.icon-bookmark {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -208px;
+}
+
+.icon-bookmark_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -208px;
+}
+
+.icon-bookmark_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -208px;
+}
+
+.icon-bookmark_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -208px;
+}
+
+.icon-bookmark_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -208px;
+}
+
+.icon-bookmark_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -208px;
+}
+
+.icon-border_all {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -208px;
+}
+
+.icon-border_bottom {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -208px;
+}
+
+.icon-border_draw {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -208px;
+}
+
+.icon-border_inner {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -208px;
+}
+
+.icon-border_inner_horizontal {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -208px;
+}
+
+.icon-border_inner_vertical {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -208px;
+}
+
+.icon-border_left {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -0;
+}
+
+.icon-border_none {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -16px;
+}
+
+.icon-border_outer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -32px;
+}
+
+.icon-border_right {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -48px;
+}
+
+.icon-border_top {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -64px;
+}
+
+.icon-box {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -80px;
+}
+
+.icon-box_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -96px;
+}
+
+.icon-box_picture {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -112px;
+}
+
+.icon-box_world {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -128px;
+}
+
+.icon-brick {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -144px;
+}
+
+.icon-brick_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -160px;
+}
+
+.icon-brick_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -176px;
+}
+
+.icon-brick_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -192px;
+}
+
+.icon-brick_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -208px;
+}
+
+.icon-brick_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -224px;
+}
+
+.icon-brick_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -224px;
+}
+
+.icon-brick_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -224px;
+}
+
+.icon-bricks {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -224px;
+}
+
+.icon-briefcase {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -224px;
+}
+
+.icon-bug {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -224px;
+}
+
+.icon-bug_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -224px;
+}
+
+.icon-bug_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -224px;
+}
+
+.icon-bug_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -224px;
+}
+
+.icon-bug_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -224px;
+}
+
+.icon-bug_fix {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -224px;
+}
+
+.icon-bug_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -224px;
+}
+
+.icon-bug_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -224px;
+}
+
+.icon-bug_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -224px;
+}
+
+.icon-build {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -224px;
+}
+
+.icon-build_cancel {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -0;
+}
+
+.icon-building {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -16px;
+}
+
+.icon-building_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -32px;
+}
+
+.icon-building_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -48px;
+}
+
+.icon-building_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -64px;
+}
+
+.icon-building_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -80px;
+}
+
+.icon-building_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -96px;
+}
+
+.icon-building_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -112px;
+}
+
+.icon-building_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -128px;
+}
+
+.icon-bullet_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -144px;
+}
+
+.icon-bullet_arrow_bottom {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -160px;
+}
+
+.icon-bullet_arrow_down {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -176px;
+}
+
+.icon-bullet_arrow_top {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -192px;
+}
+
+.icon-bullet_arrow_up {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -208px;
+}
+
+.icon-bullet_black {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -224px;
+}
+
+.icon-bullet_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -240px;
+}
+
+.icon-bullet_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -240px;
+}
+
+.icon-bullet_cross {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -240px;
+}
+
+.icon-bullet_database {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -240px;
+}
+
+.icon-bullet_database_yellow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -240px;
+}
+
+.icon-bullet_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -240px;
+}
+
+.icon-bullet_disk {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -240px;
+}
+
+.icon-bullet_earth {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -240px;
+}
+
+.icon-bullet_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -240px;
+}
+
+.icon-bullet_eject {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -240px;
+}
+
+.icon-bullet_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -240px;
+}
+
+.icon-bullet_feed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -240px;
+}
+
+.icon-bullet_get {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -240px;
+}
+
+.icon-bullet_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -240px;
+}
+
+.icon-bullet_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -240px;
+}
+
+.icon-bullet_home {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -240px;
+}
+
+.icon-bullet_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -0;
+}
+
+.icon-bullet_left {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -16px;
+}
+
+.icon-bullet_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -32px;
+}
+
+.icon-bullet_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -48px;
+}
+
+.icon-bullet_minus {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -64px;
+}
+
+.icon-bullet_orange {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -80px;
+}
+
+.icon-bullet_page_white {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -96px;
+}
+
+.icon-bullet_picture {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -112px;
+}
+
+.icon-bullet_pink {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -128px;
+}
+
+.icon-bullet_plus {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -144px;
+}
+
+.icon-bullet_purple {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -160px;
+}
+
+.icon-bullet_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -176px;
+}
+
+.icon-bullet_right {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -192px;
+}
+
+.icon-bullet_shape {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -208px;
+}
+
+.icon-bullet_sparkle {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -224px;
+}
+
+.icon-bullet_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -240px;
+}
+
+.icon-bullet_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -256px;
+}
+
+.icon-bullet_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -256px;
+}
+
+.icon-bullet_stop_alt {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -256px;
+}
+
+.icon-bullet_tick {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -256px;
+}
+
+.icon-bullet_toggle_minus {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -256px;
+}
+
+.icon-bullet_toggle_plus {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -256px;
+}
+
+.icon-bullet_white {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -256px;
+}
+
+.icon-bullet_wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -256px;
+}
+
+.icon-bullet_wrench_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -256px;
+}
+
+.icon-bullet_yellow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -256px;
+}
+
+.icon-button {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -256px;
+}
+
+.icon-cake {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -256px;
+}
+
+.icon-cake_out {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -256px;
+}
+
+.icon-cake_sliced {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -256px;
+}
+
+.icon-calculator {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -256px;
+}
+
+.icon-calculator_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -256px;
+}
+
+.icon-calculator_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -256px;
+}
+
+.icon-calculator_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -0;
+}
+
+.icon-calculator_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -16px;
+}
+
+.icon-calculator_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -32px;
+}
+
+.icon-calendar {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -48px;
+}
+
+.icon-calendar_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -64px;
+}
+
+.icon-calendar_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -80px;
+}
+
+.icon-calendar_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -96px;
+}
+
+.icon-calendar_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -112px;
+}
+
+.icon-calendar_select_day {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -128px;
+}
+
+.icon-calendar_select_none {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -144px;
+}
+
+.icon-calendar_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -160px;
+}
+
+.icon-calendar_view_day {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -176px;
+}
+
+.icon-calendar_select_week {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -192px;
+}
+
+.icon-calendar_view_week {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -208px;
+}
+
+.icon-calendar_view_month {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -224px;
+}
+
+.icon-camera {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -240px;
+}
+
+.icon-camera_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -256px;
+}
+
+.icon-camera_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -272px;
+}
+
+.icon-camera_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -272px;
+}
+
+.icon-camera_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -272px;
+}
+
+.icon-camera_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -272px;
+}
+
+.icon-camera_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -272px;
+}
+
+.icon-camera_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -272px;
+}
+
+.icon-camera_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -272px;
+}
+
+.icon-camera_picture {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -272px;
+}
+
+.icon-camera_small {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -272px;
+}
+
+.icon-camera_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -272px;
+}
+
+.icon-camera_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -272px;
+}
+
+.icon-cancel {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -272px;
+}
+
+.icon-car {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -272px;
+}
+
+.icon-car_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -272px;
+}
+
+.icon-car_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -272px;
+}
+
+.icon-car_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -272px;
+}
+
+.icon-car_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -272px;
+}
+
+.icon-car_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -272px;
+}
+
+.icon-car_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -0;
+}
+
+.icon-cart {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -16px;
+}
+
+.icon-cart_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -32px;
+}
+
+.icon-cart_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -48px;
+}
+
+.icon-cart_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -64px;
+}
+
+.icon-cart_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -80px;
+}
+
+.icon-cart_full {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -96px;
+}
+
+.icon-cart_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -112px;
+}
+
+.icon-cart_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -128px;
+}
+
+.icon-cart_put {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -144px;
+}
+
+.icon-cart_remove {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -160px;
+}
+
+.icon-cd_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -176px;
+}
+
+.icon-cd_burn {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -192px;
+}
+
+.icon-cd_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -208px;
+}
+
+.icon-cd_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -224px;
+}
+
+.icon-cd {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -240px;
+}
+
+.icon-cd_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -256px;
+}
+
+.icon-cd_eject {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -272px;
+}
+
+.icon-cd_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -288px;
+}
+
+.icon-cd_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -288px;
+}
+
+.icon-cd_stop_alt {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -288px;
+}
+
+.icon-cd_tick {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -288px;
+}
+
+.icon-cd_play {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -288px;
+}
+
+.icon-cdr {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -288px;
+}
+
+.icon-cdr_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -288px;
+}
+
+.icon-cdr_burn {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -288px;
+}
+
+.icon-cdr_cross {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -288px;
+}
+
+.icon-cdr_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -288px;
+}
+
+.icon-cdr_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -288px;
+}
+
+.icon-cdr_eject {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -288px;
+}
+
+.icon-cdr_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -288px;
+}
+
+.icon-cdr_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -288px;
+}
+
+.icon-cdr_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -288px;
+}
+
+.icon-cdr_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -288px;
+}
+
+.icon-cdr_play {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -288px;
+}
+
+.icon-cdr_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -288px;
+}
+
+.icon-cdr_stop_alt {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -288px;
+}
+
+.icon-chart_bar {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -0;
+}
+
+.icon-cdr_tick {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -16px;
+}
+
+.icon-chart_bar_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -32px;
+}
+
+.icon-chart_bar_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -48px;
+}
+
+.icon-chart_bar_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -64px;
+}
+
+.icon-chart_bar_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -80px;
+}
+
+.icon-chart_bar_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -96px;
+}
+
+.icon-chart_curve {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -112px;
+}
+
+.icon-chart_curve_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -128px;
+}
+
+.icon-chart_curve_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -144px;
+}
+
+.icon-chart_curve_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -160px;
+}
+
+.icon-chart_curve_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -176px;
+}
+
+.icon-chart_curve_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -192px;
+}
+
+.icon-chart_curve_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -208px;
+}
+
+.icon-chart_line {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -224px;
+}
+
+.icon-chart_line_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -240px;
+}
+
+.icon-chart_line_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -256px;
+}
+
+.icon-chart_line_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -272px;
+}
+
+.icon-chart_line_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -288px;
+}
+
+.icon-chart_line_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -304px;
+}
+
+.icon-chart_org_inverted {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -304px;
+}
+
+.icon-chart_organisation {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -304px;
+}
+
+.icon-chart_organisation_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -304px;
+}
+
+.icon-chart_organisation_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -304px;
+}
+
+.icon-chart_pie {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -304px;
+}
+
+.icon-chart_pie_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -304px;
+}
+
+.icon-chart_pie_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -304px;
+}
+
+.icon-chart_pie_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -304px;
+}
+
+.icon-chart_pie_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -304px;
+}
+
+.icon-chart_pie_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -304px;
+}
+
+.icon-chart_pie_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -304px;
+}
+
+.icon-check_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -304px;
+}
+
+.icon-chk_checked {
+width: 17px; height: 14px;
+background: url('../ico/icon.png') -17px -624px;
+}
+
+.icon-chk_unchecked {
+width: 17px; height: 14px;
+background: url('../ico/icon.png') -0 -624px;
+}
+
+.icon-clipboard {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -304px;
+}
+
+.icon-clock {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -304px;
+}
+
+.icon-clock_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -304px;
+}
+
+.icon-clock_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -304px;
+}
+
+.icon-clock_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -304px;
+}
+
+.icon-clock_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -0;
+}
+
+.icon-clock_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -16px;
+}
+
+.icon-clock_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -32px;
+}
+
+.icon-clock_pause {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -48px;
+}
+
+.icon-clock_play {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -64px;
+}
+
+.icon-clock_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -80px;
+}
+
+.icon-clock_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -96px;
+}
+
+.icon-clock_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -112px;
+}
+
+.icon-cmy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -128px;
+}
+
+.icon-cog {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -144px;
+}
+
+.icon-cog_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -160px;
+}
+
+.icon-cog_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -176px;
+}
+
+.icon-cog_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -192px;
+}
+
+.icon-cog_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -208px;
+}
+
+.icon-cog_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -224px;
+}
+
+.icon-cog_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -240px;
+}
+
+.icon-cog_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -256px;
+}
+
+.icon-coins {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -272px;
+}
+
+.icon-coins_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -288px;
+}
+
+.icon-coins_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -304px;
+}
+
+.icon-collapse_all {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -320px;
+}
+
+.icon-color {
+width: 16px; height: 15px;
+background: url('../ico/icon.png') -624px -336px;
+}
+
+.icon-color_swatch {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -320px;
+}
+
+.icon-color_wheel {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -320px;
+}
+
+.icon-comment {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -320px;
+}
+
+.icon-comment_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -320px;
+}
+
+.icon-comment_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -320px;
+}
+
+.icon-comment_dull {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -320px;
+}
+
+.icon-comment_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -320px;
+}
+
+.icon-comment_play {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -320px;
+}
+
+.icon-comment_record {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -320px;
+}
+
+.icon-comments {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -320px;
+}
+
+.icon-comments_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -320px;
+}
+
+.icon-comments_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -320px;
+}
+
+.icon-compass {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -320px;
+}
+
+.icon-compress {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -320px;
+}
+
+.icon-computer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -320px;
+}
+
+.icon-computer_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -320px;
+}
+
+.icon-computer_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -320px;
+}
+
+.icon-computer_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -320px;
+}
+
+.icon-computer_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -320px;
+}
+
+.icon-computer_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -0;
+}
+
+.icon-computer_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -16px;
+}
+
+.icon-computer_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -32px;
+}
+
+.icon-computer_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -48px;
+}
+
+.icon-computer_off {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -64px;
+}
+
+.icon-computer_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -80px;
+}
+
+.icon-computer_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -96px;
+}
+
+.icon-computer_wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -112px;
+}
+
+.icon-computer_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -128px;
+}
+
+.icon-connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -144px;
+}
+
+.icon-contrast {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -160px;
+}
+
+.icon-contrast_decrease {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -176px;
+}
+
+.icon-contrast_high {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -192px;
+}
+
+.icon-contrast_low {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -208px;
+}
+
+.icon-contrast_increase {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -224px;
+}
+
+.icon-control_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -240px;
+}
+
+.icon-control_add_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -256px;
+}
+
+.icon-control_blank {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -272px;
+}
+
+.icon-control_blank_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -288px;
+}
+
+.icon-control_eject {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -304px;
+}
+
+.icon-control_eject_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -320px;
+}
+
+.icon-control_end {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -336px;
+}
+
+.icon-control_end_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -336px;
+}
+
+.icon-control_equalizer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -336px;
+}
+
+.icon-control_equalizer_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -336px;
+}
+
+.icon-control_fastforward {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -336px;
+}
+
+.icon-control_fastforward_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -336px;
+}
+
+.icon-control_pause {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -336px;
+}
+
+.icon-control_pause_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -336px;
+}
+
+.icon-control_play {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -336px;
+}
+
+.icon-control_play_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -336px;
+}
+
+.icon-control_power {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -336px;
+}
+
+.icon-control_power_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -336px;
+}
+
+.icon-control_record_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -336px;
+}
+
+.icon-control_remove {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -336px;
+}
+
+.icon-control_remove_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -336px;
+}
+
+.icon-control_record {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -336px;
+}
+
+.icon-control_rewind_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -336px;
+}
+
+.icon-control_rewind {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -336px;
+}
+
+.icon-control_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -336px;
+}
+
+.icon-control_repeat {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -336px;
+}
+
+.icon-control_repeat_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -336px;
+}
+
+.icon-control_start_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -336px;
+}
+
+.icon-control_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -0;
+}
+
+.icon-controller_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -16px;
+}
+
+.icon-control_stop_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -32px;
+}
+
+.icon-controller_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -48px;
+}
+
+.icon-controller {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -64px;
+}
+
+.icon-creditcards {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -80px;
+}
+
+.icon-cross {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -96px;
+}
+
+.icon-controller_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -112px;
+}
+
+.icon-cross_octagon {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -128px;
+}
+
+.icon-css {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -144px;
+}
+
+.icon-css_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -160px;
+}
+
+.icon-css_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -176px;
+}
+
+.icon-css_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -192px;
+}
+
+.icon-css_valid {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -208px;
+}
+
+.icon-cup {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -224px;
+}
+
+.icon-css_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -240px;
+}
+
+.icon-cup_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -256px;
+}
+
+.icon-cup_black {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -272px;
+}
+
+.icon-cup_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -288px;
+}
+
+.icon-cup_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -304px;
+}
+
+.icon-cup_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -320px;
+}
+
+.icon-cup_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -336px;
+}
+
+.icon-cup_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -352px;
+}
+
+.icon-cup_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -352px;
+}
+
+.icon-cup_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -352px;
+}
+
+.icon-cursor_small {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -352px;
+}
+
+.icon-cursor {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -352px;
+}
+
+.icon-cup_tea {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -352px;
+}
+
+.icon-cut {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -352px;
+}
+
+.icon-cut_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -352px;
+}
+
+.icon-database {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -352px;
+}
+
+.icon-database_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -352px;
+}
+
+.icon-database_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -352px;
+}
+
+.icon-database_copy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -352px;
+}
+
+.icon-database_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -352px;
+}
+
+.icon-database_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -352px;
+}
+
+.icon-database_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -352px;
+}
+
+.icon-database_gear {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -352px;
+}
+
+.icon-database_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -352px;
+}
+
+.icon-database_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -352px;
+}
+
+.icon-database_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -352px;
+}
+
+.icon-database_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -352px;
+}
+
+.icon-database_refresh {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -352px;
+}
+
+.icon-database_save {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -352px;
+}
+
+.icon-database_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -352px;
+}
+
+.icon-database_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -0;
+}
+
+.icon-database_table {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -16px;
+}
+
+.icon-database_wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -32px;
+}
+
+.icon-database_yellow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -48px;
+}
+
+.icon-database_yellow_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -64px;
+}
+
+.icon-database_yellow_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -80px;
+}
+
+.icon-date {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -96px;
+}
+
+.icon-date_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -112px;
+}
+
+.icon-date_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -128px;
+}
+
+.icon-date_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -144px;
+}
+
+.icon-date_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -160px;
+}
+
+.icon-date_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -176px;
+}
+
+.icon-date_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -192px;
+}
+
+.icon-date_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -208px;
+}
+
+.icon-date_next {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -224px;
+}
+
+.icon-date_previous {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -240px;
+}
+
+.icon-decline {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -256px;
+}
+
+.icon-delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -272px;
+}
+
+.icon-delete3 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -288px;
+}
+
+.icon-DeleteRed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -304px;
+}
+
+.icon-delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -320px;
+}
+
+.icon-disconnect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -336px;
+}
+
+.icon-device_stylus {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -352px;
+}
+
+.icon-disk {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -368px;
+}
+
+.icon-disk_black {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -368px;
+}
+
+.icon-disk_black_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -368px;
+}
+
+.icon-disk_black_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -368px;
+}
+
+.icon-disk_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -368px;
+}
+
+.icon-disk_download {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -368px;
+}
+
+.icon-disk_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -368px;
+}
+
+.icon-disk_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -368px;
+}
+
+.icon-disk_multiple {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -368px;
+}
+
+.icon-disk_upload {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -368px;
+}
+
+.icon-door_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -368px;
+}
+
+.icon-door {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -368px;
+}
+
+.icon-door_in {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -368px;
+}
+
+.icon-door_open {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -368px;
+}
+
+.icon-door_out {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -368px;
+}
+
+.icon-download {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -368px;
+}
+
+.icon-download {
+width: 14px; height: 14px;
+background: url('../ico/icon.png') -624px -351px;
+}
+
+.icon-drink {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -368px;
+}
+
+.icon-drink_empty {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -368px;
+}
+
+.icon-drink_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -368px;
+}
+
+.icon-drive {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -368px;
+}
+
+.icon-drive_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -368px;
+}
+
+.icon-drive_burn {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -368px;
+}
+
+.icon-drive_cd {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -368px;
+}
+
+.icon-drive_cd_empty {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -0;
+}
+
+.icon-drive_cdr {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -16px;
+}
+
+.icon-drive_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -32px;
+}
+
+.icon-drive_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -48px;
+}
+
+.icon-drive_disk {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -64px;
+}
+
+.icon-drive_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -80px;
+}
+
+.icon-drive_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -96px;
+}
+
+.icon-drive_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -112px;
+}
+
+.icon-drive_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -128px;
+}
+
+.icon-drive_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -144px;
+}
+
+.icon-drive_network {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -160px;
+}
+
+.icon-drive_network_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -176px;
+}
+
+.icon-drive_network_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -192px;
+}
+
+.icon-drive_rename {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -208px;
+}
+
+.icon-drive_user {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -224px;
+}
+
+.icon-drive_web {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -240px;
+}
+
+.icon-dvd {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -256px;
+}
+
+.icon-dvd_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -272px;
+}
+
+.icon-dvd_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -288px;
+}
+
+.icon-dvd_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -304px;
+}
+
+.icon-dvd_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -320px;
+}
+
+.icon-dvd_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -336px;
+}
+
+.icon-dvd_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -352px;
+}
+
+.icon-dvd_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -368px;
+}
+
+.icon-dvd_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -384px;
+}
+
+.icon-dvd_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -384px;
+}
+
+.icon-edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -384px;
+}
+
+.icon-edit_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -384px;
+}
+
+.icon-edit_remove {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -384px;
+}
+
+.icon-edit_clear {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -384px;
+}
+
+.icon-eject_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -384px;
+}
+
+.icon-eject_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -384px;
+}
+
+.icon-email {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -384px;
+}
+
+.icon-email_attach {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -384px;
+}
+
+.icon-email_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -384px;
+}
+
+.icon-email_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -384px;
+}
+
+.icon-email_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -384px;
+}
+
+.icon-email_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -384px;
+}
+
+.icon-email_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -384px;
+}
+
+.icon-email_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -384px;
+}
+
+.icon-email_open {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -384px;
+}
+
+.icon-email_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -384px;
+}
+
+.icon-email_open_image {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -384px;
+}
+
+.icon-email_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -384px;
+}
+
+.icon-email_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -384px;
+}
+
+.icon-email_transfer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -384px;
+}
+
+.icon-email_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -384px;
+}
+
+.icon-emoticon_evilgrin {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -384px;
+}
+
+.icon-emoticon_grin {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -384px;
+}
+
+.icon-emoticon_happy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -0;
+}
+
+.icon-emoticon_smile {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -16px;
+}
+
+.icon-emoticon_surprised {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -32px;
+}
+
+.icon-emoticon_tongue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -48px;
+}
+
+.icon-emoticon_unhappy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -64px;
+}
+
+.icon-emoticon_waii {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -80px;
+}
+
+.icon-emoticon_wink {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -96px;
+}
+
+.icon-erase {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -112px;
+}
+
+.icon-error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -128px;
+}
+
+.icon-error_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -144px;
+}
+
+.icon-error_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -160px;
+}
+
+.icon-error_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -176px;
+}
+
+.icon-exclamation {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -192px;
+}
+
+.icon-expand_all {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -208px;
+}
+
+.icon-eye {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -224px;
+}
+
+.icon-eyes {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -240px;
+}
+
+.icon-export {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -256px;
+}
+
+.icon-feed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -272px;
+}
+
+.icon-feed_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -288px;
+}
+
+.icon-feed_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -304px;
+}
+
+.icon-feed_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -320px;
+}
+
+.icon-feed_disk {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -336px;
+}
+
+.icon-feed_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -352px;
+}
+
+.icon-feed_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -368px;
+}
+
+.icon-feed_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -384px;
+}
+
+.icon-feed_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -400px;
+}
+
+.icon-feed_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -400px;
+}
+
+.icon-feed_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -400px;
+}
+
+.icon-female {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -400px;
+}
+
+.icon-filesave {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -400px;
+}
+
+.icon-film_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -400px;
+}
+
+.icon-film {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -400px;
+}
+
+.icon-film_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -400px;
+}
+
+.icon-film_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -400px;
+}
+
+.icon-film_eject {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -400px;
+}
+
+.icon-film_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -400px;
+}
+
+.icon-film_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -400px;
+}
+
+.icon-film_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -400px;
+}
+
+.icon-film_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -400px;
+}
+
+.icon-film_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -400px;
+}
+
+.icon-film_save {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -400px;
+}
+
+.icon-film_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -400px;
+}
+
+.icon-film_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -400px;
+}
+
+.icon-film_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -400px;
+}
+
+.icon-find {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -400px;
+}
+
+.icon-finger_point {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -400px;
+}
+
+.icon-flag_black {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -400px;
+}
+
+.icon-flag_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -400px;
+}
+
+.icon-flag_checked {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -400px;
+}
+
+.icon-flag_france {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -400px;
+}
+
+.icon-flag_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -400px;
+}
+
+.icon-flag_grey {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -0;
+}
+
+.icon-flag_orange {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -16px;
+}
+
+.icon-flag_pink {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -32px;
+}
+
+.icon-flag_purple {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -48px;
+}
+
+.icon-flag_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -64px;
+}
+
+.icon-flag_white {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -80px;
+}
+
+.icon-flag_yellow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -96px;
+}
+
+.icon-flower_daisy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -112px;
+}
+
+.icon-folder_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -128px;
+}
+
+.icon-folder_bell {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -144px;
+}
+
+.icon-folder {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -160px;
+}
+
+.icon-folder_bookmark {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -176px;
+}
+
+.icon-folder_brick {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -192px;
+}
+
+.icon-folder_camera {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -208px;
+}
+
+.icon-folder_bug {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -224px;
+}
+
+.icon-folder_database {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -240px;
+}
+
+.icon-folder_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -256px;
+}
+
+.icon-folder_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -272px;
+}
+
+.icon-folder_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -288px;
+}
+
+.icon-folder_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -304px;
+}
+
+.icon-folder_explore {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -320px;
+}
+
+.icon-folder_feed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -336px;
+}
+
+.icon-folder_film {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -352px;
+}
+
+.icon-folder_find {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -368px;
+}
+
+.icon-folder_font {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -384px;
+}
+
+.icon-folder_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -400px;
+}
+
+.icon-folder_heart {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -416px;
+}
+
+.icon-folder_home {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -416px;
+}
+
+.icon-folder_image {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -416px;
+}
+
+.icon-folder_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -416px;
+}
+
+.icon-folder_lightbulb {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -416px;
+}
+
+.icon-folder_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -416px;
+}
+
+.icon-folder_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -416px;
+}
+
+.icon-folder_page {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -416px;
+}
+
+.icon-folder_page_white {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -416px;
+}
+
+.icon-folder_palette {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -416px;
+}
+
+.icon-folder_picture {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -416px;
+}
+
+.icon-folder_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -416px;
+}
+
+.icon-folder_table {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -416px;
+}
+
+.icon-folder_user {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -416px;
+}
+
+.icon-folder_up {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -416px;
+}
+
+.icon-folder_wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -416px;
+}
+
+.icon-font_color {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -416px;
+}
+
+.icon-font_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -416px;
+}
+
+.icon-font_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -416px;
+}
+
+.icon-font {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -416px;
+}
+
+.icon-font_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -416px;
+}
+
+.icon-font_larger {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -416px;
+}
+
+.icon-forward_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -416px;
+}
+
+.icon-font_smaller {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -416px;
+}
+
+.icon-forward_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -416px;
+}
+
+.icon-group {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -416px;
+}
+
+.icon-group_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -416px;
+}
+
+.icon-group_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -0;
+}
+
+.icon-group_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -16px;
+}
+
+.icon-group_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -32px;
+}
+
+.icon-group_gear {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -48px;
+}
+
+.icon-group_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -64px;
+}
+
+.icon-group_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -80px;
+}
+
+.icon-group_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -96px;
+}
+
+.icon-group32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -64px -32px;
+}
+
+.icon-heart {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -128px;
+}
+
+.icon-heart_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -144px;
+}
+
+.icon-heart_broken {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -160px;
+}
+
+.icon-heart_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -176px;
+}
+
+.icon-heart_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -192px;
+}
+
+.icon-help {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -208px;
+}
+
+.icon-hourglass {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -224px;
+}
+
+.icon-hourglass_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -240px;
+}
+
+.icon-hourglass_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -256px;
+}
+
+.icon-hourglass_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -272px;
+}
+
+.icon-hourglass_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -288px;
+}
+
+.icon-house {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -304px;
+}
+
+.icon-house_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -320px;
+}
+
+.icon-house_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -336px;
+}
+
+.icon-house_in {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -352px;
+}
+
+.icon-house_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -368px;
+}
+
+.icon-house_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -384px;
+}
+
+.icon-house_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -400px;
+}
+
+.icon-html {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -416px;
+}
+
+.icon-html_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -432px;
+}
+
+.icon-html_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -432px;
+}
+
+.icon-html_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -432px;
+}
+
+.icon-html_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -432px;
+}
+
+.icon-html_valid {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -432px;
+}
+
+.icon-image {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -432px;
+}
+
+.icon-image_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -432px;
+}
+
+.icon-image_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -432px;
+}
+
+.icon-image_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -432px;
+}
+
+.icon-image_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -432px;
+}
+
+.icon-image_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -432px;
+}
+
+.icon-images {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -432px;
+}
+
+.icon-image_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -432px;
+}
+
+.icon-information {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -432px;
+}
+
+.icon-ipod_cast {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -432px;
+}
+
+.icon-ipod {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -432px;
+}
+
+.icon-ipod_cast_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -432px;
+}
+
+.icon-ipod_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -432px;
+}
+
+.icon-ipod_nano {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -432px;
+}
+
+.icon-ipod_cast_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -432px;
+}
+
+.icon-ipod_nano_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -432px;
+}
+
+.icon-ipod_sound {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -432px;
+}
+
+.icon-joystick {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -432px;
+}
+
+.icon-joystick_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -432px;
+}
+
+.icon-joystick_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -432px;
+}
+
+.icon-joystick_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -432px;
+}
+
+.icon-joystick_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -432px;
+}
+
+.icon-key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -432px;
+}
+
+.icon-key_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -0;
+}
+
+.icon-key_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -16px;
+}
+
+.icon-key_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -32px;
+}
+
+.icon-key_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -48px;
+}
+
+.icon-key_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -64px;
+}
+
+.icon-keyboard {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -80px;
+}
+
+.icon-keyboard_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -96px;
+}
+
+.icon-keyboard_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -112px;
+}
+
+.icon-keyboard_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -128px;
+}
+
+.icon-keyboard_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -144px;
+}
+
+.icon-laptop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -160px;
+}
+
+.icon-laptop_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -176px;
+}
+
+.icon-laptop_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -192px;
+}
+
+.icon-laptop_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -208px;
+}
+
+.icon-laptop_disk {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -224px;
+}
+
+.icon-laptop_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -240px;
+}
+
+.icon-laptop_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -256px;
+}
+
+.icon-laptop_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -272px;
+}
+
+.icon-laptop_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -288px;
+}
+
+.icon-laptop_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -304px;
+}
+
+.icon-laptop_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -320px;
+}
+
+.icon-laptop_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -336px;
+}
+
+.icon-laptop_wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -352px;
+}
+
+.icon-laptop_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -368px;
+}
+
+.icon-layers {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -384px;
+}
+
+.icon-layout {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -400px;
+}
+
+.icon-layout_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -416px;
+}
+
+.icon-layout_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -432px;
+}
+
+.icon-layout_content {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -448px;
+}
+
+.icon-layout_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -448px;
+}
+
+.icon-layout_header {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -448px;
+}
+
+.icon-layout_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -448px;
+}
+
+.icon-layout_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -448px;
+}
+
+.icon-layout_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -448px;
+}
+
+.icon-layout_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -448px;
+}
+
+.icon-layout_sidebar {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -448px;
+}
+
+.icon-lightbulb {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -448px;
+}
+
+.icon-lightbulb_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -448px;
+}
+
+.icon-lightbulb_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -448px;
+}
+
+.icon-lightbulb_off {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -448px;
+}
+
+.icon-lightning_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -448px;
+}
+
+.icon-lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -448px;
+}
+
+.icon-lightning_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -448px;
+}
+
+.icon-link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -448px;
+}
+
+.icon-link_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -448px;
+}
+
+.icon-lightning_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -448px;
+}
+
+.icon-link_break {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -448px;
+}
+
+.icon-link_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -448px;
+}
+
+.icon-link_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -448px;
+}
+
+.icon-link_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -448px;
+}
+
+.icon-link_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -448px;
+}
+
+.icon-lock {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -32px;
+}
+
+.icon-lock_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -448px;
+}
+
+.icon-lock_break {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -448px;
+}
+
+.icon-lock_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -448px;
+}
+
+.icon-lock_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -448px;
+}
+
+.icon-lock_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -448px;
+}
+
+.icon-lock_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -0;
+}
+
+.icon-lock_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -16px;
+}
+
+.icon-lock_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -32px;
+}
+
+.icon-lorry {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -48px;
+}
+
+.icon-lock_open {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -64px;
+}
+
+.icon-lorry_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -80px;
+}
+
+.icon-lorry_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -96px;
+}
+
+.icon-lorry_flatbed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -112px;
+}
+
+.icon-lorry_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -128px;
+}
+
+.icon-lorry_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -144px;
+}
+
+.icon-lorry_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -160px;
+}
+
+.icon-lorry_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -176px;
+}
+
+.icon-magifier_zoom_out {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -192px;
+}
+
+.icon-lorry_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -208px;
+}
+
+.icon-magnifier {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -224px;
+}
+
+.icon-magnifier_zoom_in {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -240px;
+}
+
+.icon-mail {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -256px;
+}
+
+.icon-male {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -272px;
+}
+
+.icon-map {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -288px;
+}
+
+.icon-map_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -304px;
+}
+
+.icon-map_cursor {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -320px;
+}
+
+.icon-map_clipboard {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -336px;
+}
+
+.icon-map_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -352px;
+}
+
+.icon-map_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -368px;
+}
+
+.icon-map_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -384px;
+}
+
+.icon-map_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -400px;
+}
+
+.icon-map_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -416px;
+}
+
+.icon-map_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -432px;
+}
+
+.icon-map_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -448px;
+}
+
+.icon-map_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -464px;
+}
+
+.icon-medal_bronze_1 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -464px;
+}
+
+.icon-medal_bronze_2 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -464px;
+}
+
+.icon-medal_bronze_3 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -464px;
+}
+
+.icon-medal_bronze_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -464px;
+}
+
+.icon-medal_bronze_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -464px;
+}
+
+.icon-medal_gold_2 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -464px;
+}
+
+.icon-medal_gold_1 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -464px;
+}
+
+.icon-medal_gold_3 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -464px;
+}
+
+.icon-medal_gold_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -464px;
+}
+
+.icon-medal_gold_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -464px;
+}
+
+.icon-medal_silver_1 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -464px;
+}
+
+.icon-medal_silver_2 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -464px;
+}
+
+.icon-medal_silver_3 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -464px;
+}
+
+.icon-medal_silver_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -464px;
+}
+
+.icon-medal_silver_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -464px;
+}
+
+.icon-mini_add {
+width: 7px; height: 7px;
+background: url('../ico/icon.png') -632px -372px;
+}
+
+.icon-menu_rightarrow {
+width: 12px; height: 7px;
+background: url('../ico/icon.png') -624px -365px;
+}
+
+.icon-mini_edit {
+width: 8px; height: 8px;
+background: url('../ico/icon.png') -624px -372px;
+}
+
+.icon-mini_refresh {
+width: 6px; height: 7px;
+background: url('../ico/icon.png') -624px -380px;
+}
+
+.icon-money {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -464px;
+}
+
+.icon-money_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -464px;
+}
+
+.icon-money_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -464px;
+}
+
+.icon-money_euro {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -464px;
+}
+
+.icon-money_dollar {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -464px;
+}
+
+.icon-money_pound {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -464px;
+}
+
+.icon-money_yen {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -464px;
+}
+
+.icon-monitor {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -464px;
+}
+
+.icon-monitor_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -464px;
+}
+
+.icon-monitor_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -464px;
+}
+
+.icon-monitor_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -0;
+}
+
+.icon-monitor_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -16px;
+}
+
+.icon-monitor_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -32px;
+}
+
+.icon-monitor_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -48px;
+}
+
+.icon-monitor_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -64px;
+}
+
+.icon-moon_full {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -80px;
+}
+
+.icon-mouse {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -96px;
+}
+
+.icon-monitor_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -112px;
+}
+
+.icon-mouse_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -128px;
+}
+
+.icon-mouse_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -144px;
+}
+
+.icon-mouse_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -160px;
+}
+
+.icon-music {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -176px;
+}
+
+.icon-music_note {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -192px;
+}
+
+.icon-neighbourhood {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -208px;
+}
+
+.icon-new {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -224px;
+}
+
+.icon-new_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -240px;
+}
+
+.icon-new_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -256px;
+}
+
+.icon-newspaper {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -272px;
+}
+
+.icon-newspaper_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -288px;
+}
+
+.icon-newspaper_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -304px;
+}
+
+.icon-newspaper_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -320px;
+}
+
+.icon-newspaper_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -336px;
+}
+
+.icon-next {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -352px;
+}
+
+.icon-next_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -368px;
+}
+
+.icon-next_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -384px;
+}
+
+.icon-next_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -400px;
+}
+
+.icon-no {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -416px;
+}
+
+.icon-node_tree16 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -432px;
+}
+
+.icon-node_tree32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -0 -32px;
+}
+
+.icon-note {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -464px;
+}
+
+.icon-note_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -480px;
+}
+
+.icon-org32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -32px -32px;
+}
+
+.icon-note_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -480px;
+}
+
+.icon-note_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -480px;
+}
+
+.icon-organization {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -480px;
+}
+
+.icon-note_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -480px;
+}
+
+.icon-ok {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -480px;
+}
+
+.icon-note_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -480px;
+}
+
+.icon-outline {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -480px;
+}
+
+.icon-package {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -480px;
+}
+
+.icon-overlays {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -480px;
+}
+
+.icon-package_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -480px;
+}
+
+.icon-package_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -480px;
+}
+
+.icon-package_down {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -480px;
+}
+
+.icon-package_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -480px;
+}
+
+.icon-package_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -480px;
+}
+
+.icon-package_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -480px;
+}
+
+.icon-package_se {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -480px;
+}
+
+.icon-package_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -480px;
+}
+
+.icon-package_in {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -480px;
+}
+
+.icon-package_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -480px;
+}
+
+.icon-package_system {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -480px;
+}
+
+.icon-package_white {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -480px;
+}
+
+.icon-page {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -480px;
+}
+
+.icon-page_attach {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -480px;
+}
+
+.icon-page_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -480px;
+}
+
+.icon-page_back {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -480px;
+}
+
+.icon-page_break_insert {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -480px;
+}
+
+.icon-page_break {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -480px;
+}
+
+.icon-page_cancel {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -480px;
+}
+
+.icon-page_code {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -480px;
+}
+
+.icon-page_copy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -0;
+}
+
+.icon-page_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -16px;
+}
+
+.icon-page_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -32px;
+}
+
+.icon-page_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -48px;
+}
+
+.icon-page_excel {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -64px;
+}
+
+.icon-page_find {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -80px;
+}
+
+.icon-page_forward {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -96px;
+}
+
+.icon-page_gear {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -112px;
+}
+
+.icon-page_header_footer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -128px;
+}
+
+.icon-page_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -144px;
+}
+
+.icon-page_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -160px;
+}
+
+.icon-page_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -176px;
+}
+
+.icon-page_landscape {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -192px;
+}
+
+.icon-page_landscape_shot {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -208px;
+}
+
+.icon-page_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -224px;
+}
+
+.icon-page_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -240px;
+}
+
+.icon-page_paintbrush {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -256px;
+}
+
+.icon-page_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -272px;
+}
+
+.icon-page_paste {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -288px;
+}
+
+.icon-page_portrait {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -304px;
+}
+
+.icon-page_portrait_shot {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -320px;
+}
+
+.icon-page_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -336px;
+}
+
+.icon-page_refresh {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -352px;
+}
+
+.icon-page_save {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -368px;
+}
+
+.icon-page_white {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -384px;
+}
+
+.icon-page_white_acrobat {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -400px;
+}
+
+.icon-page_white_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -416px;
+}
+
+.icon-page_white_actionscript {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -432px;
+}
+
+.icon-page_white_break {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -448px;
+}
+
+.icon-page_white_c {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -464px;
+}
+
+.icon-page_white_camera {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -480px;
+}
+
+.icon-page_white_cd {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -496px;
+}
+
+.icon-page_white_cdr {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -496px;
+}
+
+.icon-page_white_code {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -496px;
+}
+
+.icon-page_white_code_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -496px;
+}
+
+.icon-page_white_coldfusion {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -496px;
+}
+
+.icon-page_white_compressed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -496px;
+}
+
+.icon-page_white_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -496px;
+}
+
+.icon-page_white_copy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -496px;
+}
+
+.icon-page_white_cplusplus {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -496px;
+}
+
+.icon-page_white_csharp {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -496px;
+}
+
+.icon-page_white_cup {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -496px;
+}
+
+.icon-page_white_database {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -496px;
+}
+
+.icon-page_white_database_yellow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -496px;
+}
+
+.icon-page_white_dvd {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -496px;
+}
+
+.icon-page_white_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -496px;
+}
+
+.icon-page_white_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -496px;
+}
+
+.icon-page_white_excel {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -496px;
+}
+
+.icon-page_white_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -496px;
+}
+
+.icon-page_white_flash {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -496px;
+}
+
+.icon-page_white_find {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -496px;
+}
+
+.icon-page_white_font {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -496px;
+}
+
+.icon-page_white_freehand {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -496px;
+}
+
+.icon-page_white_gear {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -496px;
+}
+
+.icon-page_white_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -496px;
+}
+
+.icon-page_white_h {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -496px;
+}
+
+.icon-page_white_get {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -496px;
+}
+
+.icon-page_white_horizontal {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -496px;
+}
+
+.icon-page_white_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -496px;
+}
+
+.icon-page_white_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -496px;
+}
+
+.icon-page_white_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -496px;
+}
+
+.icon-page_white_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -496px;
+}
+
+.icon-page_white_medal {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -496px;
+}
+
+.icon-page_white_office {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -0;
+}
+
+.icon-page_white_paint {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -16px;
+}
+
+.icon-page_white_paste {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -32px;
+}
+
+.icon-page_white_paintbrush {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -48px;
+}
+
+.icon-page_white_paste_table {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -64px;
+}
+
+.icon-page_white_php {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -80px;
+}
+
+.icon-page_white_picture {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -96px;
+}
+
+.icon-page_white_powerpoint {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -112px;
+}
+
+.icon-page_white_put {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -128px;
+}
+
+.icon-page_white_refresh {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -144px;
+}
+
+.icon-page_white_ruby {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -160px;
+}
+
+.icon-page_white_side_by_side {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -176px;
+}
+
+.icon-page_white_stack {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -192px;
+}
+
+.icon-page_white_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -208px;
+}
+
+.icon-page_white_swoosh {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -224px;
+}
+
+.icon-page_white_text {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -240px;
+}
+
+.icon-page_white_text_width {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -256px;
+}
+
+.icon-page_white_tux {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -272px;
+}
+
+.icon-page_white_vector {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -288px;
+}
+
+.icon-page_white_visualstudio {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -304px;
+}
+
+.icon-page_white_width {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -320px;
+}
+
+.icon-page_white_word {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -336px;
+}
+
+.icon-page_white_world {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -352px;
+}
+
+.icon-page_white_wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -368px;
+}
+
+.icon-page_white_zip {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -384px;
+}
+
+.icon-page_word {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -400px;
+}
+
+.icon-page_world {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -416px;
+}
+
+.icon-paint {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -432px;
+}
+
+.icon-paint_can_brush {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -448px;
+}
+
+.icon-paintbrush {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -464px;
+}
+
+.icon-paintbrush_color {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -480px;
+}
+
+.icon-paintcan {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -496px;
+}
+
+.icon-paintcan_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -512px;
+}
+
+.icon-palette {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -512px;
+}
+
+.icon-pause_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -512px;
+}
+
+.icon-paste_plain {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -512px;
+}
+
+.icon-pause_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -512px;
+}
+
+.icon-pause_record {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -512px;
+}
+
+.icon-pencil {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -512px;
+}
+
+.icon-pencil_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -512px;
+}
+
+.icon-paste_word {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -512px;
+}
+
+.icon-pencil_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -512px;
+}
+
+.icon-pencil_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -512px;
+}
+
+.icon-phone {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -512px;
+}
+
+.icon-personal {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -64px -0;
+}
+
+.icon-phone_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -512px;
+}
+
+.icon-phone_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -512px;
+}
+
+.icon-phone_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -512px;
+}
+
+.icon-phone_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -512px;
+}
+
+.icon-phone_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -512px;
+}
+
+.icon-phone_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -512px;
+}
+
+.icon-phone_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -512px;
+}
+
+.icon-phone_sound {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -512px;
+}
+
+.icon-phone_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -512px;
+}
+
+.icon-photo {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -512px;
+}
+
+.icon-phone_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -512px;
+}
+
+.icon-photo_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -512px;
+}
+
+.icon-photo_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -512px;
+}
+
+.icon-photo_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -512px;
+}
+
+.icon-photo_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -512px;
+}
+
+.icon-photo_paint {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -512px;
+}
+
+.icon-photos {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -512px;
+}
+
+.icon-picture {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -512px;
+}
+
+.icon-picture_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -512px;
+}
+
+.icon-picture_clipboard {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -512px;
+}
+
+.icon-picture_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -0;
+}
+
+.icon-picture_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -16px;
+}
+
+.icon-picture_empty {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -32px;
+}
+
+.icon-picture_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -48px;
+}
+
+.icon-picture_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -64px;
+}
+
+.icon-picture_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -80px;
+}
+
+.icon-picture_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -96px;
+}
+
+.icon-picture_save {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -112px;
+}
+
+.icon-pictures {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -128px;
+}
+
+.icon-pictures_thumbs {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -144px;
+}
+
+.icon-pilcrow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -160px;
+}
+
+.icon-pill {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -176px;
+}
+
+.icon-pill_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -192px;
+}
+
+.icon-pill_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -208px;
+}
+
+.icon-pill_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -224px;
+}
+
+.icon-pill_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -240px;
+}
+
+.icon-play_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -256px;
+}
+
+.icon-play_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -272px;
+}
+
+.icon-plugin {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -288px;
+}
+
+.icon-plugin_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -304px;
+}
+
+.icon-plugin_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -320px;
+}
+
+.icon-plugin_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -336px;
+}
+
+.icon-plugin_disabled {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -352px;
+}
+
+.icon-plugin_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -368px;
+}
+
+.icon-plugin_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -384px;
+}
+
+.icon-plugin_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -400px;
+}
+
+.icon-plugin_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -416px;
+}
+
+.icon-previous {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -432px;
+}
+
+.icon-previous_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -448px;
+}
+
+.icon-print {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -464px;
+}
+
+.icon-printer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -480px;
+}
+
+.icon-printer_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -496px;
+}
+
+.icon-printer_cancel {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -512px;
+}
+
+.icon-printer_color {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -528px;
+}
+
+.icon-printer_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -528px;
+}
+
+.icon-printer_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -528px;
+}
+
+.icon-printer_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -528px;
+}
+
+.icon-printer_empty {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -528px;
+}
+
+.icon-printer_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -528px;
+}
+
+.icon-printer_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -528px;
+}
+
+.icon-printer_mono {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -528px;
+}
+
+.icon-printer_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -528px;
+}
+
+.icon-printer_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -528px;
+}
+
+.icon-rainbow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -528px;
+}
+
+.icon-rainbow_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -528px;
+}
+
+.icon-record_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -528px;
+}
+
+.icon-record_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -528px;
+}
+
+.icon-record_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -528px;
+}
+
+.icon-redo {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -528px;
+}
+
+.icon-refresh {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -528px;
+}
+
+.icon-reload {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -528px;
+}
+
+.icon-report {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -528px;
+}
+
+.icon-report_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -528px;
+}
+
+.icon-report_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -528px;
+}
+
+.icon-report_disk {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -528px;
+}
+
+.icon-report_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -528px;
+}
+
+.icon-report_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -528px;
+}
+
+.icon-report_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -528px;
+}
+
+.icon-report_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -528px;
+}
+
+.icon-report_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -528px;
+}
+
+.icon-report_picture {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -528px;
+}
+
+.icon-report_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -528px;
+}
+
+.icon-report_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -528px;
+}
+
+.icon-report_user {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -528px;
+}
+
+.icon-report_word {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -528px;
+}
+
+.icon-resultset_first {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -528px;
+}
+
+.icon-resultset_next {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -528px;
+}
+
+.icon-resultset_last {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -0;
+}
+
+.icon-reverse_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -16px;
+}
+
+.icon-rewind_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -32px;
+}
+
+.icon-resultset_previous {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -48px;
+}
+
+.icon-reverse_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -64px;
+}
+
+.icon-rewind_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -80px;
+}
+
+.icon-rosette {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -96px;
+}
+
+.icon-rss {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -112px;
+}
+
+.icon-rgb {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -128px;
+}
+
+.icon-rosette_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -144px;
+}
+
+.icon-rss_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -160px;
+}
+
+.icon-rss_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -176px;
+}
+
+.icon-rss_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -192px;
+}
+
+.icon-rss_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -208px;
+}
+
+.icon-rss_valid {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -224px;
+}
+
+.icon-ruby {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -240px;
+}
+
+.icon-ruby_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -256px;
+}
+
+.icon-ruby_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -272px;
+}
+
+.icon-ruby_get {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -288px;
+}
+
+.icon-ruby_gear {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -304px;
+}
+
+.icon-ruby_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -320px;
+}
+
+.icon-ruby_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -336px;
+}
+
+.icon-ruby_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -352px;
+}
+
+.icon-script {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -368px;
+}
+
+.icon-ruby_put {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -384px;
+}
+
+.icon-script_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -400px;
+}
+
+.icon-script_code {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -416px;
+}
+
+.icon-script_code_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -432px;
+}
+
+.icon-script_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -448px;
+}
+
+.icon-script_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -464px;
+}
+
+.icon-script_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -480px;
+}
+
+.icon-script_gear {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -496px;
+}
+
+.icon-script_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -512px;
+}
+
+.icon-script_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -528px;
+}
+
+.icon-script_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -544px;
+}
+
+.icon-script_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -544px;
+}
+
+.icon-script_palette {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -544px;
+}
+
+.icon-script_save {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -544px;
+}
+
+.icon-script_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -544px;
+}
+
+.icon-script_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -544px;
+}
+
+.icon-search {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -544px;
+}
+
+.icon-seasons {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -544px;
+}
+
+.icon-section_collapsed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -544px;
+}
+
+.icon-section_expanded {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -544px;
+}
+
+.icon-server {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -544px;
+}
+
+.icon-server_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -544px;
+}
+
+.icon-server_chart {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -544px;
+}
+
+.icon-server_compressed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -544px;
+}
+
+.icon-server_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -544px;
+}
+
+.icon-server_database {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -544px;
+}
+
+.icon-server_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -544px;
+}
+
+.icon-server_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -544px;
+}
+
+.icon-server_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -544px;
+}
+
+.icon-server_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -544px;
+}
+
+.icon-server_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -544px;
+}
+
+.icon-server_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -544px;
+}
+
+.icon-server_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -544px;
+}
+
+.icon-server_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -544px;
+}
+
+.icon-server_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -544px;
+}
+
+.icon-server_uncompressed {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -544px;
+}
+
+.icon-server_wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -544px;
+}
+
+.icon-settings32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -0 -0;
+}
+
+.icon-shading {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -544px;
+}
+
+.icon-shape_3d {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -544px;
+}
+
+.icon-shape_align_bottom {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -544px;
+}
+
+.icon-shape_align_center {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -544px;
+}
+
+.icon-shape_align_left {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -544px;
+}
+
+.icon-shape_align_middle {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -544px;
+}
+
+.icon-shape_align_right {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -544px;
+}
+
+.icon-shape_align_top {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -0;
+}
+
+.icon-shape_flip_vertical {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -16px;
+}
+
+.icon-shape_flip_horizontal {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -32px;
+}
+
+.icon-shape_group {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -48px;
+}
+
+.icon-shape_handles {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -64px;
+}
+
+.icon-shape_move_back {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -80px;
+}
+
+.icon-shape_move_backwards {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -96px;
+}
+
+.icon-shape_move_forwards {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -112px;
+}
+
+.icon-shape_move_front {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -128px;
+}
+
+.icon-shape_rotate_anticlockwise {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -144px;
+}
+
+.icon-shape_rotate_clockwise {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -160px;
+}
+
+.icon-shape_shade_a {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -176px;
+}
+
+.icon-shape_shade_b {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -192px;
+}
+
+.icon-shape_shade_c {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -208px;
+}
+
+.icon-shape_shadow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -224px;
+}
+
+.icon-shape_shadow_toggle {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -240px;
+}
+
+.icon-shape_square {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -256px;
+}
+
+.icon-shape_square_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -272px;
+}
+
+.icon-shape_square_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -288px;
+}
+
+.icon-shape_square_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -304px;
+}
+
+.icon-shape_square_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -320px;
+}
+
+.icon-shape_square_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -336px;
+}
+
+.icon-shape_square_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -352px;
+}
+
+.icon-shape_square_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -368px;
+}
+
+.icon-shape_square_select {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -384px;
+}
+
+.icon-shape_ungroup {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -400px;
+}
+
+.icon-shapes_many {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -416px;
+}
+
+.icon-shapes_many_select {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -432px;
+}
+
+.icon-share {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -448px;
+}
+
+.icon-shield {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -464px;
+}
+
+.icon-shield_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -480px;
+}
+
+.icon-shield_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -496px;
+}
+
+.icon-shield_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -512px;
+}
+
+.icon-shield_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -528px;
+}
+
+.icon-shield_rainbow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -544px;
+}
+
+.icon-shield_silver {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -560px;
+}
+
+.icon-shield_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -560px;
+}
+
+.icon-shield_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -560px;
+}
+
+.icon-sitemap {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -560px;
+}
+
+.icon-smartphone {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -560px;
+}
+
+.icon-sitemap_color {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -560px;
+}
+
+.icon-smartphone_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -560px;
+}
+
+.icon-smartphone_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -560px;
+}
+
+.icon-smartphone_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -560px;
+}
+
+.icon-smartphone_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -560px;
+}
+
+.icon-smartphone_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -560px;
+}
+
+.icon-smartphone_disk {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -560px;
+}
+
+.icon-smartphone_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -560px;
+}
+
+.icon-smartphone_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -560px;
+}
+
+.icon-sort_ascending {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -560px;
+}
+
+.icon-sort_descending {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -560px;
+}
+
+.icon-sound_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -560px;
+}
+
+.icon-smartphone_wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -560px;
+}
+
+.icon-sound {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -560px;
+}
+
+.icon-sound_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -560px;
+}
+
+.icon-sound_high {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -560px;
+}
+
+.icon-sound_in {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -560px;
+}
+
+.icon-sound_low {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -560px;
+}
+
+.icon-sound_mute {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -560px;
+}
+
+.icon-sound_none {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -560px;
+}
+
+.icon-sound_out {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -560px;
+}
+
+.icon-spellcheck {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -560px;
+}
+
+.icon-sport_8ball {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -560px;
+}
+
+.icon-sport_basketball {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -560px;
+}
+
+.icon-sport_football {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -560px;
+}
+
+.icon-sport_golf_practice {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -560px;
+}
+
+.icon-sport_golf {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -560px;
+}
+
+.icon-sport_raquet {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -560px;
+}
+
+.icon-sport_shuttlecock {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -560px;
+}
+
+.icon-sport_soccer {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -560px;
+}
+
+.icon-star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -560px;
+}
+
+.icon-sport_tennis {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -0;
+}
+
+.icon-star_bronze {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -16px;
+}
+
+.icon-star_bronze_half_grey {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -32px;
+}
+
+.icon-star_gold_half_grey {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -48px;
+}
+
+.icon-star_gold {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -64px;
+}
+
+.icon-star_gold_half_silver {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -80px;
+}
+
+.icon-star_grey {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -96px;
+}
+
+.icon-star_half_grey {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -112px;
+}
+
+.icon-star_silver {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -128px;
+}
+
+.icon-status_away {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -144px;
+}
+
+.icon-status_be_right_back {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -160px;
+}
+
+.icon-status_busy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -176px;
+}
+
+.icon-status_invisible {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -192px;
+}
+
+.icon-status_offline {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -208px;
+}
+
+.icon-status_online {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -224px;
+}
+
+.icon-stop_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -240px;
+}
+
+.icon-stop_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -256px;
+}
+
+.icon-stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -272px;
+}
+
+.icon-style {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -288px;
+}
+
+.icon-stop_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -304px;
+}
+
+.icon-style_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -320px;
+}
+
+.icon-style_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -336px;
+}
+
+.icon-style_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -352px;
+}
+
+.icon-style_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -368px;
+}
+
+.icon-sum {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -384px;
+}
+
+.icon-sys {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -400px;
+}
+
+.icon-tab {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -416px;
+}
+
+.icon-tab_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -432px;
+}
+
+.icon-tab_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -448px;
+}
+
+.icon-tab_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -464px;
+}
+
+.icon-tab_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -480px;
+}
+
+.icon-tab_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -496px;
+}
+
+.icon-tab_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -512px;
+}
+
+.icon-tab_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -528px;
+}
+
+.icon-table {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -544px;
+}
+
+.icon-table_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -560px;
+}
+
+.icon-table_cell {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -576px;
+}
+
+.icon-table_column {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -576px;
+}
+
+.icon-table_column_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -576px;
+}
+
+.icon-table_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -576px;
+}
+
+.icon-table_column_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -576px;
+}
+
+.icon-table_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -576px;
+}
+
+.icon-table_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -576px;
+}
+
+.icon-table_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -576px;
+}
+
+.icon-table_gear {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -576px;
+}
+
+.icon-table_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -576px;
+}
+
+.icon-table_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -576px;
+}
+
+.icon-table_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -576px;
+}
+
+.icon-table_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -576px;
+}
+
+.icon-table_multiple {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -576px;
+}
+
+.icon-table_refresh {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -576px;
+}
+
+.icon-table_relationship {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -576px;
+}
+
+.icon-table_row {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -576px;
+}
+
+.icon-table_row_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -576px;
+}
+
+.icon-table_row_insert {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -576px;
+}
+
+.icon-table_save {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -576px;
+}
+
+.icon-table_sort {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -576px;
+}
+
+.icon-tag {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -576px;
+}
+
+.icon-tag_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -576px;
+}
+
+.icon-tag_blue_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -576px;
+}
+
+.icon-tag_blue_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -576px;
+}
+
+.icon-tag_blue_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -576px;
+}
+
+.icon-tag_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -576px;
+}
+
+.icon-tag_orange {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -576px;
+}
+
+.icon-tag_pink {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -576px;
+}
+
+.icon-tag_purple {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -576px;
+}
+
+.icon-tag_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -576px;
+}
+
+.icon-tag_yellow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -576px;
+}
+
+.icon-tags_grey {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -576px;
+}
+
+.icon-telephone {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -576px;
+}
+
+.icon-telephone_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -576px;
+}
+
+.icon-tags_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -576px;
+}
+
+.icon-telephone_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -576px;
+}
+
+.icon-telephone_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -0;
+}
+
+.icon-telephone_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -16px;
+}
+
+.icon-telephone_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -32px;
+}
+
+.icon-telephone_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -48px;
+}
+
+.icon-telephone_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -64px;
+}
+
+.icon-television {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -80px;
+}
+
+.icon-telephone_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -96px;
+}
+
+.icon-television_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -112px;
+}
+
+.icon-television_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -128px;
+}
+
+.icon-television_in {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -144px;
+}
+
+.icon-television_off {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -160px;
+}
+
+.icon-television_out {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -176px;
+}
+
+.icon-television_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -192px;
+}
+
+.icon-text_align_center {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -208px;
+}
+
+.icon-text_ab {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -224px;
+}
+
+.icon-text_align_left {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -240px;
+}
+
+.icon-text_align_justify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -256px;
+}
+
+.icon-text_align_right {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -272px;
+}
+
+.icon-text_allcaps {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -288px;
+}
+
+.icon-text_bold {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -304px;
+}
+
+.icon-text_complete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -320px;
+}
+
+.icon-text_direction {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -336px;
+}
+
+.icon-text_columns {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -352px;
+}
+
+.icon-text_double_underline {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -368px;
+}
+
+.icon-text_dropcaps {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -384px;
+}
+
+.icon-text_fit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -400px;
+}
+
+.icon-text_flip {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -416px;
+}
+
+.icon-text_font_default {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -432px;
+}
+
+.icon-text_heading_1 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -448px;
+}
+
+.icon-text_heading_2 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -464px;
+}
+
+.icon-text_heading_3 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -480px;
+}
+
+.icon-text_heading_4 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -496px;
+}
+
+.icon-text_heading_6 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -512px;
+}
+
+.icon-text_heading_5 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -528px;
+}
+
+.icon-text_horizontalrule {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -544px;
+}
+
+.icon-text_indent {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -560px;
+}
+
+.icon-text_inverse {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -576px;
+}
+
+.icon-text_indent_remove {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -592px;
+}
+
+.icon-text_italic {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -592px;
+}
+
+.icon-text_kerning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -592px;
+}
+
+.icon-text_left_to_right {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -592px;
+}
+
+.icon-text_letter_omega {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -592px;
+}
+
+.icon-text_letterspacing {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -592px;
+}
+
+.icon-text_linespacing {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -592px;
+}
+
+.icon-text_list_bullets {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -592px;
+}
+
+.icon-text_lowercase {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -592px;
+}
+
+.icon-text_list_numbers {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -592px;
+}
+
+.icon-text_lowercase_a {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -592px;
+}
+
+.icon-text_mirror {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -592px;
+}
+
+.icon-text_padding_bottom {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -592px;
+}
+
+.icon-text_padding_left {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -592px;
+}
+
+.icon-text_padding_right {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -592px;
+}
+
+.icon-text_padding_top {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -240px -592px;
+}
+
+.icon-text_replace {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -592px;
+}
+
+.icon-text_right_to_left {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -592px;
+}
+
+.icon-text_rotate_0 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -592px;
+}
+
+.icon-text_rotate_90 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -592px;
+}
+
+.icon-text_rotate_180 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -592px;
+}
+
+.icon-text_rotate_270 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -592px;
+}
+
+.icon-text_ruler {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -592px;
+}
+
+.icon-text_shading {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -592px;
+}
+
+.icon-text_signature {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -592px;
+}
+
+.icon-text_smallcaps {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -592px;
+}
+
+.icon-text_spelling {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -592px;
+}
+
+.icon-text_strikethrough {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -592px;
+}
+
+.icon-text_subscript {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -592px;
+}
+
+.icon-text_superscript {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -592px;
+}
+
+.icon-text_tab {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -592px;
+}
+
+.icon-text_underline {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -592px;
+}
+
+.icon-text_uppercase {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -592px;
+}
+
+.icon-textfield {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -592px;
+}
+
+.icon-textfield_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -592px;
+}
+
+.icon-textfield_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -592px;
+}
+
+.icon-textfield_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -592px;
+}
+
+.icon-textfield_rename {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -592px;
+}
+
+.icon-theme {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -0;
+}
+
+.icon-thumb_down {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -16px;
+}
+
+.icon-thumb_up {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -32px;
+}
+
+.icon-tick {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -48px;
+}
+
+.icon-tick_shield {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -64px;
+}
+
+.icon-time {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -80px;
+}
+
+.icon-time_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -96px;
+}
+
+.icon-time_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -112px;
+}
+
+.icon-time_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -128px;
+}
+
+.icon-time_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -144px;
+}
+
+.icon-time_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -160px;
+}
+
+.icon-timeline_marker {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -176px;
+}
+
+.icon-tip {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -192px;
+}
+
+.icon-transmit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -208px;
+}
+
+.icon-transmit_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -224px;
+}
+
+.icon-transmit_blue {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -240px;
+}
+
+.icon-transmit_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -256px;
+}
+
+.icon-transmit_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -272px;
+}
+
+.icon-transmit_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -288px;
+}
+
+.icon-transmit_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -304px;
+}
+
+.icon-transmit_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -320px;
+}
+
+.icon-tree16 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -336px;
+}
+
+.icon-tree32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -0 -64px;
+}
+
+.icon-tux {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -368px;
+}
+
+.icon-undo {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -384px;
+}
+
+.icon-upload {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -400px;
+}
+
+.icon-user {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -416px;
+}
+
+.icon-user_accept16 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -432px;
+}
+
+.icon-user_accept32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -32px -64px;
+}
+
+.icon-user_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -464px;
+}
+
+.icon-user_alert {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -480px;
+}
+
+.icon-user_b {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -496px;
+}
+
+.icon-user_brown {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -512px;
+}
+
+.icon-user_business_boss {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -528px;
+}
+
+.icon-user_comment {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -544px;
+}
+
+.icon-user_cross {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -560px;
+}
+
+.icon-user_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -576px;
+}
+
+.icon-user_earth {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -592px;
+}
+
+.icon-user_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -0 -608px;
+}
+
+.icon-user_edit32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -64px -64px;
+}
+
+.icon-user_female {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -32px -608px;
+}
+
+.icon-user_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -48px -608px;
+}
+
+.icon-user_gray {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -64px -608px;
+}
+
+.icon-user_gray_cool {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -608px;
+}
+
+.icon-user_green {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -96px -608px;
+}
+
+.icon-user_group {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -112px -608px;
+}
+
+.icon-user_home {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -128px -608px;
+}
+
+.icon-user_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -144px -608px;
+}
+
+.icon-user_magnify {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -160px -608px;
+}
+
+.icon-user_mature {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -176px -608px;
+}
+
+.icon-user_orange {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -192px -608px;
+}
+
+.icon-user_red {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -608px;
+}
+
+.icon-user_reject16 {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -608px;
+}
+
+.icon-user_reject32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -96px -0;
+}
+
+.icon-user_star {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -608px;
+}
+
+.icon-user_suit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -608px;
+}
+
+.icon-user_suit_black {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -608px;
+}
+
+.icon-vcard {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -608px;
+}
+
+.icon-vector {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -320px -608px;
+}
+
+.icon-user_tick {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -336px -608px;
+}
+
+.icon-vcard_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -352px -608px;
+}
+
+.icon-wand {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -368px -608px;
+}
+
+.icon-users {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -384px -608px;
+}
+
+.icon-vcard_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -400px -608px;
+}
+
+.icon-weather_clouds {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -416px -608px;
+}
+
+.icon-vcard_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -432px -608px;
+}
+
+.icon-vcard_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -448px -608px;
+}
+
+.icon-weather_cloud {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -464px -608px;
+}
+
+.icon-weather_cloudy {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -480px -608px;
+}
+
+.icon-weather_snow {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -496px -608px;
+}
+
+.icon-weather_cloudy_rain {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -512px -608px;
+}
+
+.icon-weather_lightning {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -528px -608px;
+}
+
+.icon-weather_rain {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -544px -608px;
+}
+
+.icon-weather_sun {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -560px -608px;
+}
+
+.icon-vector_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -576px -608px;
+}
+
+.icon-vector_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -592px -608px;
+}
+
+.icon-vector_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -608px -608px;
+}
+
+.icon-webcam_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -0;
+}
+
+.icon-webcam_start {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -16px;
+}
+
+.icon-webcam_stop {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -32px;
+}
+
+.icon-world {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -48px;
+}
+
+.icon-world_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -64px;
+}
+
+.icon-webcam_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -80px;
+}
+
+.icon-webcam {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -96px;
+}
+
+.icon-webcam_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -112px;
+}
+
+.icon-webcam_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -128px;
+}
+
+.icon-world_connect {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -144px;
+}
+
+.icon-world_dawn {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -160px;
+}
+
+.icon-world_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -176px;
+}
+
+.icon-world_link {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -192px;
+}
+
+.icon-world_night {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -208px;
+}
+
+.icon-world_orbit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -224px;
+}
+
+.icon-wrench {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -240px;
+}
+
+.icon-wrench_orange {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -256px;
+}
+
+.icon-writing32 {
+width: 32px; height: 32px;
+background: url('../ico/icon.png') -32px -0;
+}
+
+.icon-xhtml {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -288px;
+}
+
+.icon-xhtml_add {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -304px;
+}
+
+.icon-xhtml_delete {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -304px -464px;
+}
+
+.icon-xhtml_error {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -288px -464px;
+}
+
+.icon-xhtml_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -272px -464px;
+}
+
+.icon-zoom {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -464px;
+}
+
+.icon-zoom_in {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -256px -368px;
+}
+
+.icon-zoom_out {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -16px -320px;
+}
+
+.icon-xhtml_valid {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -224px -304px;
+}
+
+.icon-world_edit {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -208px -304px;
+}
+
+.icon-world_go {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -80px -192px;
+}
+
+.icon-world_key {
+width: 16px; height: 16px;
+background: url('../ico/icon.png') -624px -320px;
+}
+
+
+
+
+
+

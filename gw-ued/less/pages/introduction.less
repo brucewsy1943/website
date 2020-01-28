@@ -1,0 +1,84 @@
+// 公共样式
+@import "../variable.less";
+@import "../mixin.less";
+
+.text-box{
+  text-align: center;
+  width: 1000px;
+  margin: 35px auto;
+  .text-title{
+    font-size: 2rem;
+    color: @color-blue;
+    text-align: center;
+    padding:20px 0;
+  }
+  p{
+    text-indent: 2em;
+  }
+  div,p{
+    font-size: 1.4rem;
+    line-height: 2em;
+    text-align: justify;
+  }
+  img{
+    width: 64%;
+    margin: 25px auto;
+  }
+}
+.video-box{
+  position: relative;
+  width: 750px;
+  height: 424px;
+  margin: 30px auto 10px;
+  img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.toggle-cont{
+  float: right;
+  width: 1000px;
+  .toggle-item{
+    display: none;
+    &:nth-child(1){
+      display: block;
+    }
+  }
+}
+.toggle-cont2{
+  width: 920px;
+  .text-box{
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.brics-table{
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+  margin: 25px 0;
+  tr{
+    border-bottom: 1px solid #ccc;
+    td{
+      border-right: 1px solid #ccc;
+      padding: 10px;
+    }
+  }
+}
+.link-to{
+  margin-top: 25px;
+  li{
+    text-align: left;
+  }
+  a{
+    color: @color-blue;
+    line-height: 2em;
+    text-decoration: underline;
+    font-size: 1.6rem;
+  }
+}
+.link-title{
+  margin-top: 35px;
+  font-size: 1.6rem;
+}

@@ -1,0 +1,41 @@
+// 公共样式
+@import "variable.less";
+@import "mixin.less";
+
+.deteil-nav{
+    text-align: center;
+    width: 160px;
+    float: left;
+    margin: 25px auto 0;
+    li a.active{
+        display: inline-block;
+        background: #4672a8;
+        color: #fff;
+    }
+    >li{
+        a{
+            display: inline-block;
+            width: 100%;
+            height: 36px;
+            line-height: 36px;
+            background: #fff;
+            font-size: 1.4rem;
+            text-align: left;
+            padding-left: 25px;
+        }
+        >a.active{
+        }
+        .toggle{
+            // display: none;
+        }
+    }
+    .toggle{
+        li a{
+            padding-left: 55px;
+            font-size: 1.2rem;
+        }
+    }
+}
+.deteil-nav2{
+    width: 230px;
+}

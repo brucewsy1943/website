@@ -1,0 +1,72 @@
+.deteil-nav {
+  text-align: center;
+  width: 160px;
+  float: left;
+  margin: 25px auto 0;
+  color: #fff;
+}
+.deteil-nav li a:hover{
+  display: inline-block;
+  background: #365883;
+  opacity:.9;
+}
+.deteil-nav li a.active {
+  display: inline-block;
+  background: #365883;
+}
+.deteil-nav > li a {
+  display: inline-block;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background: #507EBC;
+  font-size: 1.4rem;
+  text-align: left;
+  padding-left: 25px;
+  color: #fff;
+}
+.deteil-nav > li a.arrow-right{
+  background: url('../images/icons/arrow-right.png') right 15px center no-repeat, #507EBC;
+  background-size: 18px 18px;
+}
+.deteil-nav > li a.arrow-right.active{
+  background: url('../images/icons/arrow-right.png') right 15px center no-repeat, #365883;
+  background-size: 18px 18px;
+}
+.deteil-nav > li a.arrow-down{
+  background: url('../images/icons/arrow-down.png') right 15px center no-repeat, #507EBC;
+  background-size: 18px 18px;
+}
+.deteil-nav .toggle{
+  display: none;
+}
+.deteil-nav .toggle li a {
+  padding-left: 55px;
+  font-size: 1.2rem;
+}
+.deteil-nav2 {
+  width: 230px;
+}
+.deteil-nav-cross{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.deteil-nav-cross > li{
+  float: left;
+  flex: 1;
+}
+.deteil-nav-cross > li a{
+  text-align: center;
+  padding: 0;
+  /* background: #8b2028; */
+  background: #B1B2B7;
+}
+.deteil-nav-cross.deteil-nav li a:hover{
+  /* background: #5c0f14; */
+  background: #5c0f14;
+}
+.deteil-nav-cross.deteil-nav li a.active{
+  /* background: #460b0d; */
+  background: #8b2028;
+}

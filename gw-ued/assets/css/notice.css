@@ -1,0 +1,23 @@
+.notice-box .list li {
+  padding: 10px;
+  font-size: 1.4rem;
+  border-bottom: 1px solid #F5F6EE;
+  cursor: pointer;
+  color: #333;
+}
+.notice-box .list li:hover{
+  font-weight:bold;
+}
+.notice-box .list li:hover {
+  color: #000;
+}
+.notice-box .list li span:nth-child(1) {
+  float: left;
+}
+.notice-box .list li span:nth-child(2) {
+  float: right;
+  color: #888;
+}
+.notice-box .pagination {
+  margin-top: 20px;
+}
