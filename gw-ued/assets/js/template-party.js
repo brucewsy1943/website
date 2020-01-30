@@ -80,11 +80,12 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 							}
 						}
 						
-						
-						
-						
 					}
 					$("#toggleNav").html(menu);
+					//默认高亮
+					highLight(list);
+					//去除箭头上的点击事件
+					cleanArrayFunction();
 				} else {
 					str += '没有发布的内容';
 				}
@@ -158,10 +159,9 @@ function setContent(id) {
 			'<div class="text-title">' + bean.columns + '</div>' + bean.content + '</div>';
 		$("#article").html(cont)
 		$('#toggleCont').hide();
-		$("#article").show()	
-		/* $("#content_text").html(cont);
-		$('#temp_cont').hide();
-		$("#content_text").show(); */
+		$("#article").show();
+		//点击高亮
+		clickHighLight(id);
 	});
 }
 

@@ -47,7 +47,7 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 						}else{ */
 							menu += '<li><a data-id="toggle' + bean.id + '" id="nav' + bean.id + '" ' +
 								'class="' + cal + '" ' +
-								'href="javascript:setContent('+bean.id+');" onclick="toggleMenu('+bean.id+')">' + bean.columns + '</a>';
+								'href="javascript:setContent('+bean.id+');" >' + bean.columns + '</a>';
 						/* } */
 						//关于我们的二级不用通用的，用另外的onclick触发方法
 						if (bean.display == "竖排" && bean.children.length > 0) {
@@ -77,6 +77,10 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 						}
 					}
 					$("#toggleNav").html(menu);
+					//默认高亮
+					highLight(list);
+					//去除箭头的href
+					cleanArrayFunction();
 				} else {
 					str += '没有发布的内容';
 				}
@@ -152,10 +156,9 @@ function setContent(id) {
 		$('#tab-content').hide();
 		$("#article").show();
 		$("#alias").hide();
-		/* $("#content_text").html(cont);
-		$('#temp_cont').hide();
-		$("#content_text").show(); */
 	});
+	//点击高亮
+	clickHighLight(id);
 }
 
 function getSecondMenuTags(secondMenuArray){
@@ -208,6 +211,8 @@ function setThirdMenuTags(pid){
 			generateThirdMenuTags(list);
 		}
 	});
+	
+	clickHighLight(pid)
 }
 //这个方法要加在tab上面
 function setThirdMenuContent(id){
@@ -221,9 +226,7 @@ function setThirdMenuContent(id){
 		$("#tab-content").html(bean.content);
 		$('#toggleCont').hide();
 		$("#article").hide();
-		
 	});
-	
 }
 
 

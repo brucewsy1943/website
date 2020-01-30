@@ -28,14 +28,13 @@ $.getJSON(baseUrl+"menuinfo/getObjectById?id="+id, function(fbean){
 		  if(list.length>0){
               let menu="";
               let cont="";
-			  var flag = false;
 			  for(var i in list){
 				  var bean=list[i];
 				  //alert(bean.content)
 				  var cal="";
-			      if(i==0){
+			     /* if(i==0){
 			    	  cal+=" active ";
-			      }
+			      } */
 			      
 			      if(bean.display=="竖排"&&bean.children.length>0){
 			    	  cal+=" toggle-icon arrow-right";
@@ -51,12 +50,8 @@ $.getJSON(baseUrl+"menuinfo/getObjectById?id="+id, function(fbean){
 						  menu+=' <ul class="toggle" style="display:block;">';
 						  for(var j in bean.children){
 							  var cbean=bean.children[j];
-							  /* menu+='<li><a data-id="toggle'+cbean.id+'" id="nav'+cbean.id+'" '+
-									        'href="javascript:cutCAction('+cbean.id+','+page+','+rows+')">'+cbean.columns+'</a></li>'; */
 							  menu+='<li><a data-id="toggle'+cbean.id+'" id="nav'+cbean.id+'" '+
 							  		        'href="javascript:setContent('+cbean.id+')">'+cbean.columns+'</a></li>';
-							  
-							//setContent(id)
 						  } 
 						  menu+=' </ul>';  
 					  } 
@@ -71,27 +66,14 @@ $.getJSON(baseUrl+"menuinfo/getObjectById?id="+id, function(fbean){
 					  
 					  $("#data"+bean.id+"Text").html(bean.content);
 				  }
-				   //二级有货 则显示二级。默认显示第一个二级菜单
-				  if(!flag && bean.children.length>0){
-					  flag = true;
-					  /* alert('二级') */
-					   setContent(bean.children[0].id);
-					   //高亮
-					   $("#nav"+bean.children[0].id).addClass("active")
-				  }
-				  //二级没货
-				  if(!flag && list.length >= 0 && bean.children.length==0){
-					   flag = true;
-					  /* alert("一级") */
-					  setContent(list[0].id);
-					  //高亮
-					  $("#nav"+list[0].id).addClass("active")
-				  }
+				 
 			  }
 			  $("#toggleNav").html(menu);
-			 
+			  //高亮
+			 highLight(list);
+			 cleanArrayFunction();
 		  }else{
-			  str+='没有发布的内容';
+			  str+='暂无发布的内容';
 		  }
 		}else{
 			str+='数据库异常，请联系系统管理员';
@@ -113,7 +95,6 @@ function cutAction(id){
 	 //折叠function
 	  toggleMenu(id);
 }
-
 
 function cutCAction(id,page,rows){
 	 $('.deteil-nav li a').removeClass('active');
@@ -158,10 +139,11 @@ function setContent(id){
     	cont+='<div class="text-box deteil-box">'+
               '<div class="text-title">'+bean.columns+'</div>'+bean.content+'</div>';	  
         $("#content_text").html(cont);
-        //$('#temp_cont').hide();
         $("#content_text").show();
     });     
 	/* cutAction(id); */
+	//点击高亮
+	clickHighLight(id);
 }
 
 
@@ -174,16 +156,3 @@ function setContent1(id){
         $("#content_text").show();
     });     
 }
-cleanArrayFunction()
-function cleanArrayFunction(){
-	alert(1);
-	alert($(".arrow-right").attr("onclick"))
-	$(".arrow-right").attr("onclick","");
-	$(".arrow-right").attr("href","");
-}
-
-
-
-
-
-
