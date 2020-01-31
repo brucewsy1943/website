@@ -17,18 +17,16 @@ $(function(){
 
 
 //滚动通知  （通知公告3条+新闻资讯3条）
-$.getJSON(baseUrl + "newsinfo/getObjectListIsFb?page=1&rows=3&type=slowvirus", function(data){
+$.getJSON(baseUrl + "newtreeinfo/getTrees?type=ceilresearch", function(data){
 	console.log(data)
   	var str="";
-	if(data.state){
-	  var list=data.list;
-	  //console.log(JSON.stringify(list));
+	if(data != null && data!=undefined && data[0].children.length > 0){
+	  var list=data[0].children;
 	  var gd_str = "";
 	  if(list.length>0){
 			 for(var i=0;i<list.length;i++){
 				 var bean=list[i];
-				 gd_str +='<li><a style="color:black" href="template-with-attachment.html?id=21&cid='+bean.id+'">【综合新闻】'+bean.title+'&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'+bean.rsv20+'</a></li>';
-				 //console.log(gd_str);
+				 gd_str +='<li><a style="color:black" href="template-with-children.html?id='+78+'">【综合新闻】'+bean.text+'&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp'+bean.rsv20+'</a></li>';
 			 }
 			$("#notice").html(gd_str);
 	  }else{
