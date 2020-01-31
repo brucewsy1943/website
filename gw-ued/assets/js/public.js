@@ -1,5 +1,11 @@
 createMenu();
+var sessionStorage = window.sessionStorage;
 
+
+var plasmid_treasury = "质粒库";
+var ceil_exam = "细胞质检";
+var ceil_treasury = "细胞库";
+var introduction = "机构简介";
 function createMenu(){
 	
 	var footer='<div class="clearfix">'+
@@ -17,6 +23,7 @@ function createMenu(){
 	$("#footer_text").html(footer);
 	
 	$.getJSON(baseUrl+"menuinfo/getObjectList?F=T&T=T", function(data){
+			sessionStorage.setItem("menus",data[0].children);
 	  		var str='<li><a href="index.html">首页</a></li>';
 	  		
 	  		for(var index in data[0].children){
@@ -30,6 +37,20 @@ function createMenu(){
 				if (p.children.length == 1) {
 					var c=p.children[0];
 					str+='<li><a href="'+c.url1+'?id='+c.id+'">'+c.text+'</a></li>';
+					
+					if(c.text == plasmid_treasury){
+						$("#plasmid_treasury1").attr("href",c.url1+'?id='+c.id);
+						$("#plasmid_treasury2").attr("href",c.url1+'?id='+c.id);
+					}
+					if(c.text == ceil_exam){
+						$("#ceil_exam1").attr("href",c.url1+'?id='+c.id);
+						$("#ceil_exam2").attr("href",c.url1+'?id='+c.id);
+					}
+					if(c.text == ceil_treasury){
+						$("#ceil_treasury1").attr("href",c.url1+'?id='+c.id);
+						$("#ceil_treasury2").attr("href",c.url1+'?id='+c.id);
+					}
+					
 					continue;
 				}else{
 					str+='<li>'+p.text+'<ul class="toggle clearfix">';
@@ -46,7 +67,6 @@ function createMenu(){
 	  		}
 	  		
 	  		$("#menu_head").html(str);
-	  		
 
 	  		var but="";
 	  		for(var index in data[0].children){

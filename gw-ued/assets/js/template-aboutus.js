@@ -192,9 +192,9 @@ function generateThirdMenuTags(thirdMenuArray){
 	//2、生成li 生成4级菜单
 	var li = "";
 	for (var i = 0; i < thirdMenuArray.length; i++) {
-		li += '<li><a href="javascript:setThirdMenuContent('+thirdMenuArray[i].id+')">'+thirdMenuArray[i].columns+'</a></li>'
+		li += '<li><a onclick="setThirdMenuContent('+thirdMenuArray[i].id+',this)">'+thirdMenuArray[i].columns+'</a></li>'
 	}
-	var tabcontent = '<div id="tab-content"></div>';
+	var tabcontent = '<div id="tab-content" style="margin-top:3%"></div>';
 	$("#alias").empty();
 	$("#alias").append(ul)
 	$("#thirdMenuId").append(li)
@@ -209,13 +209,16 @@ function setThirdMenuTags(pid){
 			let list = data.list;
 			console.log(list);
 			generateThirdMenuTags(list);
+			//三级默认第一个变红并显示内容
+			initThirdMenu();
 		}
 	});
-	
-	clickHighLight(pid)
+	//左边栏高亮
+	clickHighLight(pid);
+
 }
 //这个方法要加在tab上面
-function setThirdMenuContent(id){
+function setThirdMenuContent(id,obj){
 	var cont = "";
 	$.getJSON(baseUrl + "newtreeinfo/getObjectById?id=" + id, function(bean) {
 		console.log(bean)
@@ -227,7 +230,22 @@ function setThirdMenuContent(id){
 		$('#toggleCont').hide();
 		$("#article").hide();
 	});
+	
+	//其他的都变成灰色
+	$(obj).parent().parent().children().each(function(){
+		$(this).css("background","#CCCCCC");
+	});
+	
+	$(obj).parent().css("background","#8b2028");
 }
 
+//三级菜单默认显示左边第一个，并显示内容
+function initThirdMenu(){
+	//设置第一个li的背景色为#8b2028
+	$("#thirdMenuId").children(":first").css("background","#8b2028");
+	
+	//触发第一个li下面的a标签的点击事件
+	$("#thirdMenuId").children(":first").children(":first").click();
+}
 
 

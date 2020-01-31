@@ -40,6 +40,26 @@ $.getJSON(baseUrl + "newsinfo/getObjectListIsFb?page=1&rows=3&type=slowvirus", f
 	}
 });
 
+//获取首页相关的链接
+/* function getIndexHrefs(){
+	var plasmid_treasury = "质粒库";
+	var ceil_exam = "细胞质检";
+	var ceil_treasury = "细胞库";
+	var introduction = "机构简介";
+	var navArray = window.sessionStorage.getItem("menus");
+	console.log(navArray.length)
+	for (var i = 0; i < navArray.length; i++) {
+		var p=navArray[i];
+		if(p.children != null && p.children != undefined && p.children.length>0){
+			var c=p.children[0];
+			alert(c.url1)
+			
+		}
+		
+	}
+} */
+
+
 
 
 
