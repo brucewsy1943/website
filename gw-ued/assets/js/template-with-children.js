@@ -136,14 +136,18 @@ function back10(){
 function setContent(id){
 	var cont="";       
     $.getJSON(baseUrl+"newtreeinfo/getObjectById?id="+id, function(bean){
+    	console.log(bean);
     	cont+='<div class="text-box deteil-box">'+
               '<div class="text-title">'+bean.columns+'</div>'+bean.content+'</div>';	  
         $("#content_text").html(cont);
         $("#content_text").show();
+        //附件
+		appendAttachments(bean)
     });     
 	/* cutAction(id); */
 	//点击高亮
 	clickHighLight(id);
+	
 }
 
 
@@ -155,4 +159,22 @@ function setContent1(id){
         $('#temp_cont').hide();
         $("#content_text").show();
     });     
+}
+
+//附件
+function appendAttachments(bean){
+	var filestr = bean.files;
+	if(filestr == null || filestr == "" || filestr == undefined){
+		return;
+	}
+	var files = filestr.split(",");
+	var ulTag =$("#files").append("<h2><span style='font-size:medium;'>附件下载：</span></h2><div><ul></ul></div>");		
+	var attachments = ""
+	for (var i = 0; i < files.length; i++) {
+		attachments += '<li>'
+					+		'<a href="'+files[i]+'" target="_blank">'+ getFileName(files[i])
+					+		'</a>'
+					+	'</li>'
+	}
+	ulTag.append(attachments);
 }
