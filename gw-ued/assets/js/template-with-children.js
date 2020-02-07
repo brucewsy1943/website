@@ -168,13 +168,21 @@ function appendAttachments(bean){
 		return;
 	}
 	var files = filestr.split(",");
-	var ulTag =$("#files").append("<h2><span style='font-size:medium;'>附件下载：</span></h2><div><ul></ul></div>");		
+	var ulTag =$("#content_text").append("<h2 style='margin-top:15px'><span style='font-size:large;'>附件下载：</span></h2>");		
 	var attachments = ""
 	for (var i = 0; i < files.length; i++) {
 		attachments += '<li>'
-					+		'<a href="'+files[i]+'" target="_blank">'+ getFileName(files[i])
+					+		'<a style="font-size:1.4rem;font-style:italic" href="'+files[i]+'" target="_blank">'+ getFileName(files[i])
 					+		'</a>'
 					+	'</li>'
 	}
-	ulTag.append(attachments);
+	ulTag.append("<ul>"+attachments+"</ul>");
+}
+
+//截取字符串，获取附件名
+function getFileName(str){
+	var start = str.lastIndexOf("/");
+	var end = str.length;
+	var name = str.substring(start+1,end);
+	return name;
 }
