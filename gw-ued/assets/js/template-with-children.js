@@ -59,7 +59,6 @@ $.getJSON(baseUrl+"menuinfo/getObjectById?id="+id, function(fbean){
 				  if(bean.children.length<=0){
 					  var temp1='  <div class="toggle-item" data-id="toggleCont'+bean.id+'" id="data'+bean.id+'">'+
 				          '<div class="text-box deteil-box"  id="data'+bean.id+'Text">'+
-			          
 				          '</div>'+
 				          '</div>';
 					  $("#toggleCont").append(temp1);
@@ -73,7 +72,7 @@ $.getJSON(baseUrl+"menuinfo/getObjectById?id="+id, function(fbean){
 			 highLight(list);
 			 cleanArrayFunction();
 		  }else{
-			  str+='暂无发布的内容';
+			  str+='<div style="font-size:16px;">暂无发布的内容</div>';
 		  }
 		}else{
 			str+='数据库异常，请联系系统管理员';

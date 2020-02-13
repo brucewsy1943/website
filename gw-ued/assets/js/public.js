@@ -18,6 +18,7 @@ function createMenu(){
 	'</div>'+
 	'<p>Copyright 2008-2018 sibcb.ac.cn All Right Reseved 中国科学院生物化学与细胞生物学研究所苏州研究院 版权所有</p>'+
 	'<p>中国科学院生物化学与细胞生物学研究所苏州研究院 苏ICP备09005103号-10</p>'+
+	'<p>联系方式：0512-62800807（电话） xin.xu@sibcb.ac.cn（邮箱）</p>'+
 	'<p>苏公网安备 31010402004834号</p>';
 
 	$("#footer_text").html(footer);
@@ -25,7 +26,7 @@ function createMenu(){
 	$.getJSON(baseUrl+"menuinfo/getObjectList?F=T&T=T", function(data){
 			sessionStorage.setItem("menus",data[0].children);
 	  		var str='<li><a href="index.html">首页</a></li>';
-	  		
+	  		console.log(data);
 	  		for(var index in data[0].children){
 	  			var p=data[0].children[index];
 				//假如没有子目录
@@ -37,16 +38,16 @@ function createMenu(){
 				if (p.children.length == 1) {
 					var c=p.children[0];
 					str+='<li><a href="'+c.url1+'?id='+c.id+'">'+c.text+'</a></li>';
-					
-					if(c.text == plasmid_treasury){
+					//给首页的其他部分赋予链接
+					if(c.text == plasmid_treasury){//质粒库
 						$("#plasmid_treasury1").attr("href",c.url1+'?id='+c.id);
 						$("#plasmid_treasury2").attr("href",c.url1+'?id='+c.id);
 					}
-					if(c.text == ceil_exam){
+					if(c.text == ceil_exam){//细胞质检
 						$("#ceil_exam1").attr("href",c.url1+'?id='+c.id);
 						$("#ceil_exam2").attr("href",c.url1+'?id='+c.id);
 					}
-					if(c.text == ceil_treasury){
+					if(c.text == ceil_treasury){//细胞库
 						$("#ceil_treasury1").attr("href",c.url1+'?id='+c.id);
 						$("#ceil_treasury2").attr("href",c.url1+'?id='+c.id);
 					}

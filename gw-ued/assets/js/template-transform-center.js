@@ -34,10 +34,14 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 						}
 						if (bean.display == "竖排" && bean.children.length > 0) {
 							cal += " toggle-icon arrow-right";
+							menu += '<li><a data-id="toggle' + bean.id + '" id="nav' + bean.id + '" ' +
+								'onclick="toggle(' + bean.id + ')" class="' + cal + '" ' +
+								'href="javascript:void(0);">' + bean.columns + '</a>';
+						}else{
+							menu += '<li><a data-id="toggle' + bean.id + '" id="nav' + bean.id + '" ' +
+								'onclick="cutAction(' + bean.id + ')" class="' + cal + '" ' +
+								'href="javascript:void(0);">' + bean.columns + '</a>';
 						}
-						menu += '<li><a data-id="toggle' + bean.id + '" id="nav' + bean.id + '" ' +
-							'onclick="cutAction(' + bean.id + ')" class="' + cal + '" ' +
-							'href="javascript:void(0);">' + bean.columns + '</a>';
 
 						if (bean.display == "竖排" && bean.children.length > 0) {
 							menu += ' <ul class="toggle" style="display:block;">';
@@ -55,7 +59,7 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 						}
 						if (bean.children.length <= 0) {
 							var temp1 = '  <div class="toggle-item" data-id="toggleCont' + bean.id + '" id="data' + bean.id + '">' +
-								'<div class="text-box deteil-box"  id="data' + bean.id + 'Text">' +
+								'<div style="width:80%" class="text-box deteil-box"  id="data' + bean.id + 'Text">' +
 								'</div>' +
 								'</div>';
 							$("#toggleCont").append(temp1);
@@ -87,6 +91,11 @@ function cutAction(id) {
 	$("#data" + id).show();
 }
 
+function toggle(id){
+	$('.deteil-nav li a').removeClass('active');
+	$("#nav" + id).addClass('active');
+	$("#nav" + id).next('.toggle').toggle();
+}
 
 function cutCAction(id, page, rows) {
 	$('.deteil-nav li a').removeClass('active');
@@ -119,6 +128,8 @@ function cutCAction(id, page, rows) {
 	// 右侧内容做相应的改变
 	$('#toggleCont .toggle-item').hide();
 	$("#data" + id).show();
+	
+	$("#enterprise").hide();
 }
 
 function back10() {
@@ -129,11 +140,15 @@ function back10() {
 function setContent(id) {
 	var cont = "";
 	$.getJSON(baseUrl + "newtreeinfo/getObjectById?id=" + id, function(bean) {
-		cont += '<div class="text-box deteil-box">' +
+		cont += '<div style="width:80%" class="text-box deteil-box">' +
 			'<div class="text-title">' + bean.columns + '</div>' + bean.content + '</div>';
-		$("#content_text").html(cont);
-		$('#temp_cont').hide();
-		$("#content_text").show();
+		
+		$("#enterprise").show();
+		$("#enterprise").html(cont);
+		$(".toggle-item").hide();
+		//$('#temp_cont').hide();
+		//$("#content_text").show();
+		
 	});
 }
 
@@ -207,11 +222,12 @@ function getFhxm(id, page, rows) {
 function setContent1(id) {
 	var cont = "";
 	$.getJSON(baseUrl + "newtreeinfo/getObjectById?id=" + id, function(bean) {
-		cont += '<div class="text-box deteil-box"><div class="text-title">' + bean.subhead + '</div>' + bean.content +
+		cont += '<div style="width:80%" class="text-box deteil-box"><div class="text-title">' + bean.subhead + '</div>' + bean.content +
 			'</div>';
-		$("#content_text").html(cont);
-		$('#temp_cont').hide();
-		$("#content_text").show();
+		$("#enterprise").html(cont);
+		//$('#temp_cont').hide();
+		//$("#content_text").show();
+		$(".toggle-item").hide();
 	});
 }
 
@@ -286,11 +302,14 @@ function generateTags(firstMenuContentArray) {
 
 	var second = getSecondMenuContentTags(secondMenuArray)
 	$("#toggleCont").append(first + second);
-
+	
+	//在toggleCont下再来一个div，控制孵化项目和孵化企业的展示
+	$("#toggleCont").append("<div style='margin-bottom:30px' id='enterprise'></div>")
+	
 	//拼接中心下面的项目
 	//项目的整体骨架先行
 	var projectStructure = ""
-	projectStructure += '<div id="centerProjects" class="deteil-box" style="margin-top: 0;">' +
+	projectStructure += '<div id="centerProjects" class="deteil-box" style="margin-top: 0;width:100%">' +
 		'</div>'
 	$("#data" + introId).append(projectStructure);
 

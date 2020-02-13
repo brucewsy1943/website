@@ -11,7 +11,7 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 	$("#temp_img").attr("src", fbean.maxImg);
 	$("#index_title").html('- ' + fbean.text);
 	$("#index_icon").html('<span class="icon icon-' + type + '"></span>' + fbean.text);
-	$("#index_icon").attr("onclick", "back('template-with-children-list.html?id=" + id + "')");
+	$("#index_icon").attr("onclick", "back('template-aboutus.html?id=" + id + "')");
 	
 	if (GetQueryString("cid") != null) {
 		var cid = GetQueryString("cid");
@@ -42,13 +42,13 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 								'href="javascript:cutCAction(' + bean.id + ',' + page + ',' + rows + ');">' + bean.columns + '</a>';
 								var beanList = [];
 								beanList.push(bean)
-							getSecondMenuTags(beanList);	
+							getSecondMenuTags(beanList);	 */
 								
-						}else{ */
+						//}else{
 							menu += '<li><a data-id="toggle' + bean.id + '" id="nav' + bean.id + '" ' +
 								'class="' + cal + '" ' +
-								'href="javascript:setContent('+bean.id+');" >' + bean.columns + '</a>';
-						/* } */
+								'href="javascript:setContent('+bean.id+');" onclick="toggleMenu('+bean.id+')">' + bean.columns + '</a>';
+						//} 
 						//关于我们的二级不用通用的，用另外的onclick触发方法
 						if (bean.display == "竖排" && bean.children.length > 0) {
 							getSecondMenuTags(bean.children);

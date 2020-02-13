@@ -185,3 +185,7 @@ body {
   display: block;
   clear: both;
 }
+
+#footer_text p{
+	font-size: 14px!important;
+}

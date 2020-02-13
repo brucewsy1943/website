@@ -11,7 +11,7 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 	$("#temp_img").attr("src", fbean.maxImg);
 	$("#index_title").html('- ' + fbean.text);
 	$("#index_icon").html('<span class="icon icon-' + type + '"></span>' + fbean.text);
-	$("#index_icon").attr("onclick", "back('template-with-children-list.html?id=" + id + "')");
+	$("#index_icon").attr("onclick", "back('template-party.html?id=" + id + "')");
 	
 	if (GetQueryString("cid") != null) {
 		var cid = GetQueryString("cid");
@@ -155,7 +155,7 @@ function back10() {
 function setContent(id) {
 	var cont = "";
 	$.getJSON(baseUrl + "newtreeinfo/getObjectById?id=" + id, function(bean) {
-		cont += '<div class="text-box deteil-box">' +
+		cont += '<div class="text-box deteil-box" style="width:80%">' +
 			'<div class="text-title">' + bean.columns + '</div>' + bean.content + '</div>';
 		$("#article").html(cont)
 		$('#toggleCont').hide();
