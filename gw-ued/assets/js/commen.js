@@ -1,6 +1,7 @@
 //var baseUrl = "http://localhost:8080/brics/";
-var baseUrl = "http://192.168.1.122:8081/brics/";
-//var baseUrl = "http://localhost:8081/brics/";
+//var baseUrl = "http://192.168.1.122:8081/brics/";
+var baseUrl = "http://localhost:8081/brics/";
+//var baseUrl = "http://brics.ac.cn:8888/brics/";
 $(function(){
   if(navigator.appName == "Microsoft Internet Explorer"&&parseInt(navigator.appVersion.split(";")[1].replace(/[ ]/g, "").replace("MSIE",""))<9){
     alert("您的浏览器版本过低，请下载IE9及以上版本");
@@ -44,11 +45,21 @@ function highLight(list){
 		if(!flag && list.length >= 0 && bean.children.length==0){
 			  flag = true;
 			  /* alert("一级") */
-			  setContent(list[0].id);
+			  //第一个菜单的点击事件
+			   clickFirstTagFunction();
 			  //高亮
 			  $("#nav"+list[0].id).addClass("active")
 		}
 	}
+}
+
+function clickFirstTagFunction(){
+	 $("#toggleNav").children().each(function(index,element){
+		  var elementChildren = element.children;
+		  if(index == 0){
+			  elementChildren[0].click();
+		  }
+	}); 
 }
 
 //点击高亮

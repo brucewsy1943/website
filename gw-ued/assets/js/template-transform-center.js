@@ -89,6 +89,7 @@ function cutAction(id) {
 	// 右侧内容做相应的改变
 	$('#toggleCont .toggle-item').hide();
 	$("#data" + id).show();
+	$("#enterprise").hide();
 }
 
 function toggle(id){
@@ -128,7 +129,6 @@ function cutCAction(id, page, rows) {
 	// 右侧内容做相应的改变
 	$('#toggleCont .toggle-item').hide();
 	$("#data" + id).show();
-	
 	$("#enterprise").hide();
 }
 
@@ -168,11 +168,11 @@ function getZyzhxm(id, page, rows) {
 						'</div>' +
 						'<div class="ad-text">' +
 						'<div class="title2">' + bean.columns + '</div>' +
-						'<p class="overflow-2 overflow-4">' + bean.intro + '</p>' +
+						'<p class="overflow-2 overflow-5">' + bean.intro + '</p>' +
 						'</div>' +
-						'<div class="tips">' +
+						/* '<div class="tips">' +
 						'<span class="icon icon-more"></span>' +
-						'</div>' +
+						'</div>' + */
 						'</a>';
 				}
 			} else {
@@ -201,11 +201,11 @@ function getFhxm(id, page, rows) {
 						'</div>' +
 						'<div class="ad-text">' +
 						'<div class="title2">' + bean.columns + '</div>' +
-						'<p class="overflow-2 overflow-4">' + bean.intro + '</p>' +
+						'<p class="overflow-2 overflow-5">' + bean.intro + '</p>' +
 						'</div>' +
-						'<div class="tips">' +
+						/* '<div class="tips">' +
 						'<span class="icon icon-more"></span>' +
-						'</div>' +
+						'</div>' + */
 						'</a>';
 				}
 			} else {
@@ -224,6 +224,7 @@ function setContent1(id) {
 	$.getJSON(baseUrl + "newtreeinfo/getObjectById?id=" + id, function(bean) {
 		cont += '<div style="width:80%" class="text-box deteil-box"><div class="text-title">' + bean.subhead + '</div>' + bean.content +
 			'</div>';
+		$("#enterprise").show();
 		$("#enterprise").html(cont);
 		//$('#temp_cont').hide();
 		//$("#content_text").show();
@@ -243,7 +244,7 @@ function generateFirstMenuContentTags(firstMenuContentArray) {
 	for (var i = 0; i < firstMenuContentArray.length; i++) {
 		firstMenuContentTags += '<div class="toggle-item" data-id="toggleCont1" id="data' + firstMenuContentArray[i].id +
 			'">' +
-			'<div class="text-box"id="data' + firstMenuContentArray[i].id + 'Text" style="width:100%;margin:0">' +
+			'<div class="text-box"id="data' + firstMenuContentArray[i].id + 'Text" style="width:100%;margin:0;min-height:0px">' +
 			'</div>' +
 			'</div>'
 	}
@@ -290,7 +291,7 @@ function generateTags(firstMenuContentArray) {
 	for (var i = 0; i < firstMenuContentArray.length; i++) {
 		//注意 这里只能用顺序来标识了！
 		//正常这种要写固定模板 但是他标签id都写死了，标签id又基于数据库id，而且整个js都是基于写死的标签id。。。实在是没办法
-		if (firstMenuContentArray[i].num == "1") { //中心介绍
+		if (firstMenuContentArray[i].num == "2") { //成果展示
 			bean = firstMenuContentArray[i]
 			introId = firstMenuContentArray[i].id;
 			projectArray = firstMenuContentArray[i].children;

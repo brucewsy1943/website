@@ -1,198 +1,307 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 	<head>
-		<title>Js+CSS间断和不间断文本滚动代码</title>
-		<meta http-equiv="content-type" content="text/html;charset=gb2312" />
-		<style type="text/css">
-			* {
-				margin: 0;
-				padding: 0;
-				font: 14px "宋体";
-			}
-
-			#container {
-				margin: 0 auto;
-				margin-top: 50px;
-				border: 3px solid #CCC;
-				border-radius: 6px;
-				width: 400px;
-			}
-
-			.title {
-				background: #A00;
-				opacity: 0.9;
-				height: 45px;
-				margin: 0;
-				border-radius: 4px 4px 0 0;
-				position: relative;
-				border-bottom: 5px solid #FFF;
-			}
-
-			.title h2 {
-				display: inline-block;
-				height: 30px;
-				line-height: 30px;
-				color: #FFF;
-				font: bold 18px "微软雅黑";
-				margin: 10px 0 0 30px;
-			}
-
-			a {
-				text-decoration: none;
-				color: #000;
-			}
-
-			.title a {
-				color: #FFF;
-				font: bold 14px "微软雅黑";
-				position: absolute;
-				bottom: 8px;
-				right: 5px;
-			}
-
-			.content {
-				border-radius: 0 0 5px 5px;
-				height: 150px;
-				overflow: hidden;
-			}
-
-			ul,
-			li {
-				list-style: none;
-			}
-
-			.content ul {
-				margin: 0 21px;
-				width: 350px;
-				/*border: 1px solid red;*/
-			}
-
-			.content span {
-				clear: both;
-				font: 12px "微软雅黑";
-				margin: 0;
-				float: right;
-			}
-
-			.content ul li {
-
-				margin-left: 10px;
-				padding-top: 8px;
-				overflow: hidden;
-
-			}
-
-			.content a {
-				font: bold 12px "微软雅黑";
-			}
-
-			.content a:hover {
-				color: red;
-				font: bold 12px "微软雅黑";
-			}
-		</style>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
 	</head>
 	<body>
-		<ol class="tree">  
-       <li>  
-           <label for="folder1" class="folderOne">泽元框架</label> <input type="checkbox" id="folder1" /> 
-           <ol>  
-                <li>  
-                   <label for="subfolder1"class="folderTwo">开发规范</label> <input type="checkbox" id="subfolder1"  />   
-                   <ol>  
-                       <li class="file folderThree"><a href="#">常见界面错误举例</a></li>  
-                       <li class="file folderThree"><a href="#">关于发行报告对BUG管理提出…</a></li>  
-                       <li class="file folderThree"><a href="#">插件内部JAVA包命名规范</a></li>  
-                   </ol>  
-               </li> 
-                <li class="file folderTwo"><a href="#">概述</a></li>  
-                <li class="file folderTwo"><a href="#">服务器集群</a></li>  
-                <li class="file folderTwo"><a href="#">模板</a></li>  
-                <li class="file folderTwo"><a href="#">安全机制</a></li>   
-           </ol>  
-   
-       </li>  
-       <li>  
-           <label for="folder2" class="folderOne" >ZCMS</label> <input type="checkbox" id="folder2" />   
-           <ol>  
-               <li class="file folderTwo"><a href="#">实时数据</a></li> 
-               <li>  
-                   <label for="subfolder2" class="folderTwo">实时数据</label> <input type="checkbox" id="subfolder2"  />   
-                   <ol>  
-                       <li class="file folderThree"><a href="#">实时数据</a></li>  
-                       <li class="file folderThree"><a href="#">实时数据</a></li>  
-                       <li class="file folderThree"><a href="#">实时数据</a></li>  
-                   </ol>  
-               </li>  
-           </ol>  
-       </li> 
-       <li>  
-           <label for="folder3"  class="folderOne">ZAS</label> <input type="checkbox" id="folder3" />   
-           <ol>  
-               <li class="file folderTwo"><a href="#">实时数据</a></li> 
-               <li class="file folderTwo"><a href="#">实时数据</a></li> 
-           </ol>  
-       </li> 
-       <li>  
-           <label for="folder4"  class="folderOne">ZHTML标签</label> <input type="checkbox" id="folder4"/>   
-           <ol>  
-               <li class="file folderTwo"><a href="#">实时数据</a></li> 
-               <li class="file folderTwo"><a href="#">实时数据</a></li> 
-           </ol>  
-       </li> 
-       <li>  
-           <label for="folder5"  class="folderOne">UI框架API手册</label> <input type="checkbox" id="folder5"/>   
-           <ol>  
-               <li class="file folderTwo"><a href="#">实时数据</a></li> 
-               <li class="file folderTwo"><a href="#">实时数据</a></li> 
-           </ol>  
-       </li> 
-   </ol>
- 
-<style type="text/css">  
-    .tree {margin: 0;padding: 0;background-color:#f2f2f2;overflow: hidden;}  
-    /*隐藏input*/
-    .tree li input{position: absolute;left: 0;opacity: 0;z-index: 2;cursor: pointer;height: 1em;width:1em;top: 0;}  
-    /*所有菜单项设置统一样式*/
-    .tree li {position: relative;list-style: none;}   
-    /*一级菜单加下边线*/
-    .tree>li{border-bottom: 1px solid #d9d9d9;}
-    /*给有子菜单的菜单项添加背景图标*/
-    .tree li label {max-width:999px;cursor: pointer;display: block;margin:0 0 0 -50px;padding: 15px 10px 15px 70px;background: url(../../images/cp-detail-arrow-b.png) no-repeat right center;background-position:95% 50%;white-space:nowrap;overflow:hidden;text-overflow: ellipsis; }  
-    .tree li label:hover,li label:focus{background-color:#a7a7a7;color:#fff;}
-    /*清除所有展开的子菜单的display*/
-    .tree li input + ol{display: none;}  
-    /*当input被选中时，给所有展开的子菜单设置样式*/
-    .tree input:checked + ol {padding-left:14px;height: auto;display: block;}  
-    .tree input:checked + ol > li { height: auto;}  
-    /*末层菜单为A标签，设置样式*/
-    .tree li.file a{margin:0 -10px 0 -50px;padding: 15px 20px 15px 70px;text-decoration:none;display: block;color:#333333;white-space:nowrap;overflow:hidden;text-overflow: ellipsis;} 
-    .tree li.file a:hover,li.file a:focus{background-color:#a7a7a7;color:#fff;} 
-    /*不同层级的菜单字体大小不同*/
-    .tree .folderOne{font-size: 18px;}
-    .tree .folderTwo{font-size:16px;}
-    .tree .folderThree{font-size:14px;}
-</style>
- 
-<script type="text/javascript">
-       $(document).ready(function() {
-           //每个有子菜单的菜单项添加点击事件
-           $(".tree label").click(function(){
-               //获取当前菜单旁边input的check状态
-               var isChecked = $(this).next("input[type='checkbox']").is(':checked');
-               //展开和收齐的不同状态下更换右侧小图标
-               if(isChecked){
-                   $(this).css(
-                       "background-image","url(../images/cp-detail-arrow-b.png)"
-                   );
-               }else{
-                   $(this).css(
-                       "background-image","url(../images/cp-detail-arrow-t.png)"
-                   );
-               }
-           });
-             
-       });
-   </script>
+		<p>&nbsp; &nbsp; &nbsp; &nbsp;应广大用户的强烈要求，中国科学院生物化学与细胞生物学研究所苏州研究院可提供快速、可靠的人源性病毒检测服务。<br><br>
+		<span style="font-weight: bold; font-size: medium;">病毒检测的意义：</span><br>
+		&nbsp;&nbsp; &nbsp; &nbsp;病毒与某些疾病的发生发展密切相关，如乙型肝炎病毒（Hepatitis B virus, HBV）与肝癌、丙型肝炎病毒（Hepatitis C virus, HCV）与丙型肝炎，EB病毒（Epstein-Barr virus, EBV）与鼻咽癌，人巨细胞病毒（human cytomegalo virus，HCMV）与小儿先天畸形，人免疫缺陷病毒（Human immune-deficiency
+			virus, HIV）与艾滋病，人乳头瘤病毒（Human pappiloma virus, HPV）与宫颈癌，人腺病毒（Human adeno virus，HAV）与呼吸道疾病，人单纯疱疹病毒（herpes simplex virus，
+			HSV）与疱疹等。因此，病毒检测对临床的诊断有重要的指导意义，可根据不同的基因型对疾病发展进行有效预测，从而达到良好的预防和控制。<br>我们采用PCR方法来检测血液、血浆等其他样本中病毒的携带情况，灵敏度高（100
+			copies/反应），结果准确。<br><br>
+		</p>
+		<table width="548">
+		    <tbody>
+		        <tr style=";height:25px" class="firstRow">
+		            <td width="189" style="border: 1px solid windowtext; background: rgb(217, 226, 243); padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <a><span style="font-family:   宋体">检测项目</span></a>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: 1px solid windowtext; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-image: initial; border-left: none; background: rgb(217, 226, 243); padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体;color:black">单价（元）</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: 1px solid windowtext; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-image: initial; border-left: none; background: rgb(217, 226, 243); padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体;color:black">报告周期</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: 1px solid windowtext; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-image: initial; border-left: none; background: rgb(217, 226, 243); padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体;color:black">检测方法</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: 1px solid windowtext; border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-image: initial; border-left: none; background: rgb(217, 226, 243); padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体;color:black">样本类型</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人乙肝病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">HBV</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人丙肝病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">HCV</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人鼻咽癌病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">EBV</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人巨细胞病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">HCMV</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人艾滋病病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">HIV</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人乳头瘤病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">HPV</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人腺病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">HAV</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人单纯疱疹病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">I</span><span style="font-family:宋体">型</span><span style="font-family:&#39;Times New Roman&#39;,serif">HSV-1</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		        <tr style=";height:25px">
+		            <td width="189" style="border-right: 1px solid windowtext; border-bottom: 1px solid windowtext; border-left: 1px solid windowtext; border-image: initial; border-top: none; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:宋体">人单纯疱疹病毒</span><span style="font-family:&#39;Times New Roman&#39;,serif">II</span><span style="font-family:宋体">型</span><span style="font-family:&#39;Times New Roman&#39;,serif">HSV-2</span>
+		                </p>
+		            </td>
+		            <td width="66" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif;color:black">350</span>
+		                </p>
+		            </td>
+		            <td width="50" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:right;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">7</span><span style="font-family:宋体">工作日</span>
+		                </p>
+		            </td>
+		            <td width="50" valign="top" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">PCR</span>
+		                </p>
+		            </td>
+		            <td width="142" style="border-top: none; border-left: none; border-bottom: 1px solid windowtext; border-right: 1px solid windowtext; padding: 0px 7px;">
+		                <p style="text-align:center;line-height:20px">
+		                    <span style="font-family:&#39;Times New Roman&#39;,serif">1mL</span><span style="font-family:宋体">血清或血浆</span>
+		                </p>
+		            </td>
+		        </tr>
+		    </tbody>
+		</table>
+		<p>
+			<span style="font-size: medium;">
+				<span style="font-weight: bold;">交付结果：</span>阴阳性。
+			</span><br><br>
+		</p>
+		<p>
+			<span style="font-weight: bold; font-size: medium;">样品寄送地址：</span><br>单位名称：中科院生化与细胞所苏州研究院<br>详细地址：江苏省苏州市工业园区金鸡湖大道99号苏州纳米城西北区10栋301室<br>收件人：史亚南
+			联系电话：0512-62800805<br><br><span style="font-weight: bold; font-size: medium;">汇款流程：</span><br>开户银行：中国银行股份有限公司独墅湖支行<br>单位：中国科学院生物化学与细胞生物学研究所苏州研究院<br>帐号：
+			537870139908 （转账时优先选择普通转账,尽量不要选择实时到账）<br>*汇款时请在汇款附言中备注：姓名+人源性病毒检测服务<br>1.建议通过网银付款，并备注信息，汇款后请邮件告知并提供汇款凭证。<br>2.汇款收到后开展检测服务。若贵方财务对报销现金发票的额度有特殊要求（如单张发票需小于1000元方可报销现金），请汇款后务必通知我们。<br>3.我们默认开具增值税普通发票，如您需要增值税专用发票（税率为6%），请在回信中告知并提供相关开专票信息。
+		</p>
 	</body>
 </html>
+
+
+
+
+
+

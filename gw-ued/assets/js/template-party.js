@@ -82,7 +82,7 @@ $.getJSON(baseUrl + "menuinfo/getObjectById?id=" + id, function(fbean) {
 						
 					}
 					$("#toggleNav").html(menu);
-					//默认高亮
+					//默认高亮并触发第一个点击事件
 					highLight(list);
 					//去除箭头上的点击事件
 					cleanArrayFunction();
