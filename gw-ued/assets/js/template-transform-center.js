@@ -236,8 +236,7 @@ function generateFirstMenuContentTags(firstMenuContentArray) {
 	//中心介绍
 	var firstMenuContentTags = "";
 	for (var i = 0; i < firstMenuContentArray.length; i++) {
-		firstMenuContentTags += '<div class="toggle-item" data-id="toggleCont1" id="data' + firstMenuContentArray[i].id +
-			'">' +
+		firstMenuContentTags += '<div class="toggle-item" data-id="toggleCont1" id="data' + firstMenuContentArray[i].id +'">' +
 			'<div class="text-box"id="data' + firstMenuContentArray[i].id + 'Text" style="width:100%;margin:0;min-height:0px">' +
 			'</div>' +
 			'</div>'
@@ -249,7 +248,7 @@ function generateFirstMenuContentTags(firstMenuContentArray) {
 function generateProjectTags(projectArray) {
 	console.log(projectArray);
 	var project = "";
-	for (var i = 0; i < projectArray.length; i++) {
+	for (var i = 0; i < projectArray.length; i++) {//projectArray.length
 		project += '<div class="deteil-item">' +
 			'<div class="deteil-title">' + projectArray[i].columns + '</div>' +
 			'<div class="academic-box user-box clearfix" id="data' + projectArray[i].id + 'Text"></div>'
@@ -294,7 +293,9 @@ function generateTags(firstMenuContentArray) {
 			secondMenuArray = firstMenuContentArray[i].children;
 		}
 	}
-
+	
+	console.log(projectArray);
+	
 	var second = getSecondMenuContentTags(secondMenuArray)
 	$("#toggleCont").append(first + second);
 	
@@ -313,6 +314,8 @@ function generateTags(firstMenuContentArray) {
 	console.log(project)
 	$("#centerProjects").html(project);
 	
+	
+	
 	//显示中心文章
 	$("#data"+bean.id+"Text").html(bean.content);
 	
@@ -320,3 +323,24 @@ function generateTags(firstMenuContentArray) {
 	getZyzhxm(projectArray[0].id, 1, 10);
 	getFhxm(projectArray[1].id, 1, 10)
 }
+
+//新增其他项目板块
+function getOtherProject(projectArray){
+	/* var title = "<div class='deteil-item'>"
+					+ "<div class='deteil-title'>其他项目</div>";
+					+ "<ul id='otherproject'></ul>"
+				+"</div>" */
+	var centerChildren = $("#centerProjects").children();
+	var othersContentArray = projectArray[2].children();
+	
+	var li = "";
+	for (var i = 0; i < othersContentArray.length; i++) {
+		li += "<li>"+othersContentArray[i].title+"</li>";
+	}
+	
+	others.append(li);
+	
+}
+
+
+
