@@ -162,18 +162,15 @@ function getZyzhxm(id, page, rows) {
 			if (list.length > 0) {
 				for (var i in list) {
 					var bean = list[i];
-					cont += '<a class="ad-item" href="javascript:void(0);" onclick="setContent1(' + bean.id + ')">' +
-						'<div class="time-box">' +
-						'<img src="' + bean.img + '">' +
-						'</div>' +
-						'<div class="ad-text">' +
-						'<div class="title2">' + bean.columns + '</div>' +
-						'<p class="overflow-2 overflow-5">' + bean.intro + '</p>' +
-						'</div>' +
-						/* '<div class="tips">' +
-						'<span class="icon icon-more"></span>' +
-						'</div>' + */
-						'</a>';
+					cont += '<a class="ad-item" style="height:auto" href="javascript:void(0);" onclick="setContent1(' + bean.id + ')">' +
+								'<div class="time-box">' +
+								'<img src="' + bean.img + '">' +
+								'</div>' +
+								'<div style="display:block;padding: 0px 15px 0;" class="ad-text">' +
+								'<div style="text-align:center;margin:5px 0;font-size: 2rem;" class="title2">' + bean.columns + '</div>' +
+								'<p style="text-align:center;margin-bottom:5px" class="overflow-2 overflow-5">' + bean.intro + '</p>' +
+								'</div>' +
+							'</a>';
 				}
 			} else {
 				cont += "没有发布的内容";
@@ -195,17 +192,14 @@ function getFhxm(id, page, rows) {
 			if (list.length > 0) {
 				for (var i in list) {
 					var bean = list[i];
-					cont += '<a class="ad-item" href="javascript:void(0);" onclick="setContent1(' + bean.id + ')">' +
+					cont += '<a class="ad-item" style="height:auto" href="javascript:void(0);" onclick="setContent1(' + bean.id + ')">' +
 						'<div class="time-box">' +
 						'<img src="' + bean.img + '">' +
 						'</div>' +
-						'<div class="ad-text">' +
-						'<div class="title2">' + bean.columns + '</div>' +
-						'<p class="overflow-2 overflow-5">' + bean.intro + '</p>' +
+						'<div style="display:block" class="ad-text">' +
+						'<div style="text-align:center" class="title2">' + bean.columns + '</div>' +
+						'<p style="margin-bottom:5px" class="overflow-2 overflow-5">' + bean.intro + '</p>' +
 						'</div>' +
-						/* '<div class="tips">' +
-						'<span class="icon icon-more"></span>' +
-						'</div>' + */
 						'</a>';
 				}
 			} else {
